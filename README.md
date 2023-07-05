@@ -19,7 +19,21 @@ Script: Mapping.sh
 
 Script: Samtools_FixMate_MarkDup.sh
 
-## Haplotype Calling via GATK 
+## Variant Calling, Filtering & Annotation
+Single-nucleotide polymorphisms (SNPs) were called from each isolate using Genome Analysis Toolkit (GATK; version 4.2.5.0.) (DePristo et al., 2011) in two steps. First, variants were called HaplotypeCaller using the -ERC GVCF option with the ploidy level set to 2. Following, the variant files were merged using GATK’s CombineGVCFs function and the merged gvcf file was subjected to variant calling using GATK’s GenotypeGVCFs function. The resulting VCF files were then merged using PICARD v.2.26.11 MergeVcfs function. The merged vcf was subjected to light filtering using GATK’s SelectVariants where only the biallelic SNPs were retained, unused alternatives removed, and non-variants were excluded.
+
+**GATK HaplotypeCaller**
 
 Script: GATK_HaplotypeCaller.sh
 
+**Picard MergeVcfs**
+
+Script: Combine_gVCF.sh
+
+**GATK GenotypeGVCF**
+
+Script: GATK_GenotypeGVCF.sh
+
+**GATK SelectVariants**
+
+Script: GATK_SelectVariants.sh
