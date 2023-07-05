@@ -1,6 +1,6 @@
 # _Phytophthora cinnamomi_ Population Genomics
 
-The workflow and materials used for the _P. cinnamomi_ population genomic study in Shands _et al._ (2023). Code utilizing array jobs were adopted from my dissertation committee member Dr. Jason Stajich (https://github.com/hyphaltip/PopGenomics_Aureobasidium_pullulans/tree/main/pipeline), thank you Jason. 
+The workflow and materials used for the _P. cinnamomi_ population genomic study in Shands _et al._ (2023). Code utilizing array jobs were adopted from my dissertation committee member Dr. Jason Stajich ([https://github.com/hyphaltip/PopGenomics_Aureobasidium_pullulans/tree/ma](https://github.com/hyphaltip/PopGenomics_Aureobasidium_pullulans/tree/main)), thank you Jason. 
 
 ## Read Trimming & Filtering
 
