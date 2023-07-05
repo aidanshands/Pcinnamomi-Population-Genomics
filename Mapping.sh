@@ -7,7 +7,6 @@
 #SBATCH -c 64
 #SBATCH --time=12-00:00:00
 ##SBATCH --output=my.stdout
-#SBATCH --mail-type=ALL
 #SBATCH --job-name="BWA"
 #SBATCH -p batch
 
