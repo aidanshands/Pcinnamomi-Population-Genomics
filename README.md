@@ -32,7 +32,7 @@ Reads were mapped to _P. cinnamomi_ isolate 2113 (Shands et al., 2023) (GenBank:
 
 **Mapping**
 ``` bash
-SAMPFILE=Progeny.csv
+SAMPFILE=Isolates.csv
 FILTERREADDIR=Filtered_Reads
 SORTEDCRAM=Sorted_CRAMs
 # Indexing genome
@@ -58,6 +58,7 @@ done
 
 ``` bash
 # Setting genome-specific variables
+SAMPFILE=Isolates.csv
 INCRAMDIR=Sorted_CRAMs
 OUTCRAMDIR=Name_Sorted_CRAMs
 FIXMATEDIR=Fixmate_CRAMs
@@ -87,6 +88,5 @@ do
   mapped_pct=$(grep "mapped" $FLAGSTATSDIR/$ISOLATE.mkdup.flagstat.txt | awk -F "[(|%]" '{print $2}' | head -n 1)
   printf "$ISOLATE\t${mapped_pct}\n" >> $FLAGSTATSDIR/SUM.mkdup.flagstat.txt
 done
-
 ```
 
