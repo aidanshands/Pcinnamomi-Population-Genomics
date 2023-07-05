@@ -7,7 +7,6 @@
 #SBATCH -c 32
 #SBATCH --time=12-00:00:00
 ##SBATCH --output=my.stdout
-#SBATCH --mail-type=ALL
 #SBATCH --job-name="Samtools"
 #SBATCH -p batch
 
