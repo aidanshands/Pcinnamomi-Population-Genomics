@@ -7,7 +7,6 @@
 #SBATCH -c 8
 #SBATCH --time=5-00:00:00
 ##SBATCH --output=my.stdout
-#SBATCH --mail-type=ALL
 #SBATCH --job-name="Fastq-Filter"
 #SBATCH -p batch
 
