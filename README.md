@@ -73,7 +73,7 @@ Script: Allele_Balance.R
 
 ## Caluclating EC50
 
-See In Vitro Sensitivity to Potassium Phosphite in Methods section in Shands _et al._ (2023). 
+See _In Vitro_ Sensitivity to Potassium Phosphite in Methods section in Shands _et al._ (2023). 
 
 Script: Calculate_EC50.py
 
