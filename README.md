@@ -48,3 +48,7 @@ Script: VCFtools_Filter.sh
 
 Scripts: snpEff_pt1.sh, snpSift.sh & snpEff_pt2.sh
 
+## Population Genomic Analyses
+
+
+
