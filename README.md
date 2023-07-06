@@ -37,3 +37,8 @@ Script: GATK_GenotypeGVCF.sh
 **GATK SelectVariants**
 
 Script: GATK_SelectVariants.sh
+
+**VCFtools Filtering**
+
+Script: VCFtools_Filter.sh
+
