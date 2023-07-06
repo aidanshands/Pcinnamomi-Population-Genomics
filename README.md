@@ -4,7 +4,9 @@ The workflow and materials used for the _P. cinnamomi_ population genomic study 
 
 ## Read Trimming & Filtering
 
-Read filtering was performed using fastq-mcf v1.05 (Aronesty, 2011). Script: Read_Filtering.sh. 
+Read filtering was performed using fastq-mcf v1.05 (Aronesty, 2011). 
+
+Script: Read_Filtering.sh. 
 
 
 ## Read Mapping & BAM Processing
