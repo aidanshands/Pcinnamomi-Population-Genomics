@@ -122,7 +122,6 @@ data_summary <- function(data, varname, groupnames){
 #-------------------------------------------------------------------------------
 # Root Health Analysis 
 #-------------------------------------------------------------------------------
-
 # Here I am calculating the AUDPC of the seedling root health ratings of the 
 # treatments via visual assessment. In this experiment, I have 3 data points 
 # from 3 separate trees, respectively, that were ultimately discarded after 
