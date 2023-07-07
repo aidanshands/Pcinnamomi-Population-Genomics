@@ -18,21 +18,15 @@ library(reshape2)
 library(tidyverse)
 library(colorspace)
 library(ggtree)
-setwd("/Users/manosalvalab/Desktop/Aidan/Pc_PopGen_2022/PopGen_Scripts_Github/UC2001_Root_Health")
 
-
+#-------------------------------------------------------------------------------
 # Import data 
 Root_data = read.csv("Final_UC2001_Root_Rating_Percent_Diseased.csv", header=T)
 Root_Health_data = read.csv("UC2001_Root_Health.csv", header=T)
-
 #-------------------------------------------------------------------------------
 # Defining Functions 
 #-------------------------------------------------------------------------------
-
-# These functions will assess the data for normality via QQ plot, 
-# calculate the AUDPC, and perform 1-way ANOVA & Tukey HSD
-
-# QQ plot 
+# QQ plot, Levene's test & Shapiro-Wilks test
 QC_Stats = function(data, variable){
   dataname = deparse(substitute(data))
   col <- data[[variable]]
