@@ -78,7 +78,6 @@ Calculate_AUDPC = function(input_df, data){
   return(output_df)
 }
 
-# 1-way ANOVA & Tukey HSD
 # Performs One-way ANOVA, Tukey's HSD or Fisher's LSD
 Stats = function(data, variable, value, test){
   dataname = deparse(substitute(data)) # get name of data we are working on 
