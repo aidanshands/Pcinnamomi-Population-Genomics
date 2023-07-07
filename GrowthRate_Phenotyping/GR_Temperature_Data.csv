@@ -1,0 +1,1765 @@
+Isolate,RGPD,County,State,Country ,Replicate,Growing_Region,Temperature 
+P398,8.33,Santa Barbara,CA,USA,1,North,22
+P398,7.07,Santa Barbara,CA,USA,1,North,22
+P398,9.06,Santa Barbara,CA,USA,1,North,22
+P407,7.76,Santa Barbara,CA,USA,1,North,22
+P407,7.73,Santa Barbara,CA,USA,1,North,22
+P407,8,Santa Barbara,CA,USA,1,North,22
+P349,4.76,Santa Barbara,CA,USA,1,North,22
+P349,3.87,Santa Barbara,CA,USA,1,North,22
+P349,4.79,Santa Barbara,CA,USA,1,North,22
+P344,6.17,Santa Barbara,CA,USA,1,North,22
+P344,5.65,Santa Barbara,CA,USA,1,North,22
+P344,5.8,Santa Barbara,CA,USA,1,North,22
+P245,7.39,Ventura,CA,USA,1,North,22
+P245,5.92,Ventura,CA,USA,1,North,22
+P245,6.09,Ventura,CA,USA,1,North,22
+P340,5.4,San Diego,CA,USA,1,South,22
+P340,4.95,San Diego,CA,USA,1,South,22
+P340,6,San Diego,CA,USA,1,South,22
+P207,7.76,San Diego,CA,USA,1,South,22
+P207,8.14,San Diego,CA,USA,1,South,22
+P207,7.47,San Diego,CA,USA,1,South,22
+P420,8.14,Santa Barbara,CA,USA,1,North,22
+P420,8.37,Santa Barbara,CA,USA,1,North,22
+P420,8.09,Santa Barbara,CA,USA,1,North,22
+Nik4_2,7.7,San Diego,CA,USA,1,South,22
+Nik4_2,7.23,San Diego,CA,USA,1,South,22
+Nik4_2,7.4,San Diego,CA,USA,1,South,22
+Pc336,5.54,San Diego,CA,USA,1,South,22
+Pc336,5.41,San Diego,CA,USA,1,South,22
+Pc336,5.32,San Diego,CA,USA,1,South,22
+P163,5.91,Riverside,CA,USA,1,South,22
+P163,6.06,Riverside,CA,USA,1,South,22
+P163,5.75,Riverside,CA,USA,1,South,22
+P216,7.57,Riverside,CA,USA,1,South,22
+P216,7.65,Riverside,CA,USA,1,South,22
+P216,7.66,Riverside,CA,USA,1,South,22
+R_1,8.14,Orange,CA,USA,1,North,22
+R_1,8.01,Orange,CA,USA,1,North,22
+R_1,7.94,Orange,CA,USA,1,North,22
+P14009,7.96,Ventura,CA,USA,1,North,22
+P14009,8.23,Ventura,CA,USA,1,North,22
+P14009,7.87,Ventura,CA,USA,1,North,22
+Pc2114,7.79,Ventura,CA,USA,1,North,22
+Pc2114,8.05,Ventura,CA,USA,1,North,22
+Pc2114,7.96,Ventura,CA,USA,1,North,22
+St5b,4.74,San Diego,CA,USA,1,South,22
+St5b,5.52,San Diego,CA,USA,1,South,22
+St5b,5.38,San Diego,CA,USA,1,South,22
+Pc2120,5.69,Riverside,CA,USA,1,South,22
+Pc2120,6.1,Riverside,CA,USA,1,South,22
+Pc2120,5.62,Riverside,CA,USA,1,South,22
+B9,6.65,Santa Barbara,CA,USA,1,North,22
+B9,8.56,Santa Barbara,CA,USA,1,North,22
+B9,7.06,Santa Barbara,CA,USA,1,North,22
+Pc2113,8.12,Santa Barbara,CA,USA,1,North,22
+Pc2113,8.05,Santa Barbara,CA,USA,1,North,22
+Pc2113,8.15,Santa Barbara,CA,USA,1,North,22
+Pc2109,5.01,San Diego,CA,USA,1,South,22
+Pc2109,4.97,San Diego,CA,USA,1,South,22
+Pc2109,4.66,San Diego,CA,USA,1,South,22
+St6a,4.94,San Diego,CA,USA,1,South,22
+St6a,4.94,San Diego,CA,USA,1,South,22
+St6a,4.86,San Diego,CA,USA,1,South,22
+Pc2110,6.68,Ventura,CA,USA,1,North,22
+Pc2110,6.62,Ventura,CA,USA,1,North,22
+Pc2110,6.98,Ventura,CA,USA,1,North,22
+Van3,7.15,Ventura,CA,USA,1,North,22
+Van3,7.79,Ventura,CA,USA,1,North,22
+Van3,7.68,Ventura,CA,USA,1,North,22
+P2115,8.37,Ventura,CA,USA,1,North,22
+P2115,8.55,Ventura,CA,USA,1,North,22
+P2115,8.52,Ventura,CA,USA,1,North,22
+Pc2117,5.28,San Diego,CA,USA,1,South,22
+Pc2117,4.97,San Diego,CA,USA,1,South,22
+Pc2117,4.75,San Diego,CA,USA,1,South,22
+P352,6.33,San Diego,CA,USA,1,South,22
+P352,6.61,San Diego,CA,USA,1,South,22
+P352,6.38,San Diego,CA,USA,1,South,22
+P438,7.19,Santa Barbara,CA,USA,1,North,22
+P438,6.84,Santa Barbara,CA,USA,1,North,22
+P438,7.29,Santa Barbara,CA,USA,1,North,22
+P439,6.27,Santa Barbara,CA,USA,1,North,22
+P439,6.8,Santa Barbara,CA,USA,1,North,22
+P439,6.57,Santa Barbara,CA,USA,1,North,22
+L2_1,8.59,Ventura,CA,USA,1,North,22
+L2_1,8.27,Ventura,CA,USA,1,North,22
+L2_1,7.89,Ventura,CA,USA,1,North,22
+P367,5.86,Ventura,CA,USA,1,North,22
+P367,5.33,Ventura,CA,USA,1,North,22
+P367,5.28,Ventura,CA,USA,1,North,22
+P448,7.34,Ventura,CA,USA,1,North,22
+P448,7.64,Ventura,CA,USA,1,North,22
+P448,7.25,Ventura,CA,USA,1,North,22
+P454,6.98,Ventura,CA,USA,1,North,22
+P454,6.27,Ventura,CA,USA,1,North,22
+P454,7.12,Ventura,CA,USA,1,North,22
+P425,4.68,Ventura,CA,USA,1,North,22
+P425,3.63,Ventura,CA,USA,1,North,22
+P425,4.35,Ventura,CA,USA,1,North,22
+P426,7.72,Ventura,CA,USA,1,North,22
+P426,7.33,Ventura,CA,USA,1,North,22
+P426,7.27,Ventura,CA,USA,1,North,22
+P429,7.57,Ventura,CA,USA,1,North,22
+P429,7.27,Ventura,CA,USA,1,North,22
+P429,7.39,Ventura,CA,USA,1,North,22
+P322,7.69,Ventura,CA,USA,1,North,22
+P322,8.61,Ventura,CA,USA,1,North,22
+P322,7.72,Ventura,CA,USA,1,North,22
+P381,7.72,San Diego,CA,USA,1,South,22
+P381,7.36,San Diego,CA,USA,1,South,22
+P381,7.88,San Diego,CA,USA,1,South,22
+P508,4.85,San Diego,CA,USA,1,South,22
+P508,4.59,San Diego,CA,USA,1,South,22
+P508,5.3,San Diego,CA,USA,1,South,22
+P514,4.64,San Diego,CA,USA,1,South,22
+P514,5.06,San Diego,CA,USA,1,South,22
+P514,5.89,San Diego,CA,USA,1,South,22
+P520,5.14,San Diego,CA,USA,1,South,22
+P520,5.48,San Diego,CA,USA,1,South,22
+P520,5.4,San Diego,CA,USA,1,South,22
+P461,5.23,San Diego,CA,USA,1,South,22
+P461,4.61,San Diego,CA,USA,1,South,22
+P461,5,San Diego,CA,USA,1,South,22
+P467,7.04,San Diego,CA,USA,1,South,22
+P467,7.08,San Diego,CA,USA,1,South,22
+P467,7.86,San Diego,CA,USA,1,South,22
+P473,6.98,San Diego,CA,USA,1,South,22
+P473,7.16,San Diego,CA,USA,1,South,22
+P473,6.71,San Diego,CA,USA,1,South,22
+P482,8.12,San Diego,CA,USA,1,South,22
+P482,7.89,San Diego,CA,USA,1,South,22
+P482,7.97,San Diego,CA,USA,1,South,22
+P483,8.57,San Diego,CA,USA,1,South,22
+P483,8.7,San Diego,CA,USA,1,South,22
+P483,8.14,San Diego,CA,USA,1,South,22
+P356,6.15,Riverside,CA,USA,1,South,22
+P356,6.16,Riverside,CA,USA,1,South,22
+P356,6.29,Riverside,CA,USA,1,South,22
+P360,7.66,Riverside,CA,USA,1,South,22
+P360,7.37,Riverside,CA,USA,1,South,22
+P360,7.87,Riverside,CA,USA,1,South,22
+B4,6.73,Santa Barbara,CA,USA,1,North,22
+B4,6.93,Santa Barbara,CA,USA,1,North,22
+B4,6.67,Santa Barbara,CA,USA,1,North,22
+P532,5.68,Riverside,CA,USA,1,South,22
+P532,6.3,Riverside,CA,USA,1,South,22
+P532,5.57,Riverside,CA,USA,1,South,22
+P553,5.65,Riverside,CA,USA,1,South,22
+P553,5.88,Riverside,CA,USA,1,South,22
+P553,5.97,Riverside,CA,USA,1,South,22
+OH3,9.01,Riverside,CA,USA,1,South,22
+OH3,8.23,Riverside,CA,USA,1,South,22
+OH3,7.63,Riverside,CA,USA,1,South,22
+OH3a,7.81,Riverside,CA,USA,1,South,22
+OH3a,7.83,Riverside,CA,USA,1,South,22
+OH3a,7.86,Riverside,CA,USA,1,South,22
+OH4,7.47,Riverside,CA,USA,1,South,22
+OH4,7.95,Riverside,CA,USA,1,South,22
+OH4,8.03,Riverside,CA,USA,1,South,22
+S2_1,7.26,Orange,CA,USA,1,North,22
+S2_1,6.92,Orange,CA,USA,1,North,22
+S2_1,7.09,Orange,CA,USA,1,North,22
+W3_1,6.38,Orange,CA,USA,1,North,22
+W3_1,5.68,Orange,CA,USA,1,North,22
+W3_1,6.15,Orange,CA,USA,1,North,22
+M403,7.85,Riverside,CA,USA,1,South,22
+M403,7.34,Riverside,CA,USA,1,South,22
+M403,7.69,Riverside,CA,USA,1,South,22
+M399,5.24,San Diego,CA,USA,1,South,22
+M399,6,San Diego,CA,USA,1,South,22
+M399,5.83,San Diego,CA,USA,1,South,22
+M398,5.18,San Diego,CA,USA,1,South,22
+M398,4.76,San Diego,CA,USA,1,South,22
+M398,5.24,San Diego,CA,USA,1,South,22
+M405,8.66,San Diego,CA,USA,1,South,22
+M405,8.58,San Diego,CA,USA,1,South,22
+M405,8.51,San Diego,CA,USA,1,South,22
+L14,8,Ventura,CA,USA,1,North,22
+L14,8.56,Ventura,CA,USA,1,North,22
+L14,7.59,Ventura,CA,USA,1,North,22
+P442,8.27,Ventura,CA,USA,1,North,22
+P442,8.16,Ventura,CA,USA,1,North,22
+P442,7.99,Ventura,CA,USA,1,North,22
+P444,7.35,Ventura,CA,USA,1,North,22
+P444,7.33,Ventura,CA,USA,1,North,22
+P444,7.09,Ventura,CA,USA,1,North,22
+P446,8.55,Ventura,CA,USA,1,North,22
+P446,7.8,Ventura,CA,USA,1,North,22
+P446,8.2,Ventura,CA,USA,1,North,22
+P485,8.08,San Diego,CA,USA,1,South,22
+P485,7.8,San Diego,CA,USA,1,South,22
+P485,7.91,San Diego,CA,USA,1,South,22
+P398,9.07,Santa Barbara,CA,USA,2,North,22
+P398,9.12,Santa Barbara,CA,USA,2,North,22
+P398,9.34,Santa Barbara,CA,USA,2,North,22
+P407,8.57,Santa Barbara,CA,USA,2,North,22
+P407,8.56,Santa Barbara,CA,USA,2,North,22
+P407,8.31,Santa Barbara,CA,USA,2,North,22
+P349,4.3,Santa Barbara,CA,USA,2,North,22
+P349,5.05,Santa Barbara,CA,USA,2,North,22
+P349,4.64,Santa Barbara,CA,USA,2,North,22
+P344,5.86,Santa Barbara,CA,USA,2,North,22
+P344,6.72,Santa Barbara,CA,USA,2,North,22
+P344,6.51,Santa Barbara,CA,USA,2,North,22
+P245,8.13,Ventura,CA,USA,2,North,22
+P245,6.89,Ventura,CA,USA,2,North,22
+P245,7.68,Ventura,CA,USA,2,North,22
+P207,8.54,San Diego,CA,USA,2,South,22
+P207,8.22,San Diego,CA,USA,2,South,22
+P207,8.37,San Diego,CA,USA,2,South,22
+P340,5.15,San Diego,CA,USA,2,South,22
+P340,5.29,San Diego,CA,USA,2,South,22
+P340,5.17,San Diego,CA,USA,2,South,22
+Nik4_2,7.55,San Diego,CA,USA,2,South,22
+Nik4_2,7.31,San Diego,CA,USA,2,South,22
+Nik4_2,7.74,San Diego,CA,USA,2,South,22
+P420,8.18,Santa Barbara,CA,USA,2,North,22
+P420,8.42,Santa Barbara,CA,USA,2,North,22
+P420,8,Santa Barbara,CA,USA,2,North,22
+Pc336,6.15,San Diego,CA,USA,2,South,22
+Pc336,5.4,San Diego,CA,USA,2,South,22
+Pc336,5.78,San Diego,CA,USA,2,South,22
+P163,6.16,Riverside,CA,USA,2,South,22
+P163,6.82,Riverside,CA,USA,2,South,22
+P163,6.27,Riverside,CA,USA,2,South,22
+P216,7.82,Riverside,CA,USA,2,South,22
+P216,7.9,Riverside,CA,USA,2,South,22
+P216,7.62,Riverside,CA,USA,2,South,22
+R_1,8.38,Orange,CA,USA,2,North,22
+R_1,7.9,Orange,CA,USA,2,North,22
+R_1,7.87,Orange,CA,USA,2,North,22
+P14009,7.55,Ventura,CA,USA,2,North,22
+P14009,7.72,Ventura,CA,USA,2,North,22
+P14009,8.06,Ventura,CA,USA,2,North,22
+Pc2113,8.12,Santa Barbara,CA,USA,2,North,22
+Pc2113,7.99,Santa Barbara,CA,USA,2,North,22
+Pc2113,8.23,Santa Barbara,CA,USA,2,North,22
+Pc2114,8.11,Ventura,CA,USA,2,North,22
+Pc2114,8.17,Ventura,CA,USA,2,North,22
+Pc2114,8.1,Ventura,CA,USA,2,North,22
+St5b,5.26,San Diego,CA,USA,2,South,22
+St5b,4.62,San Diego,CA,USA,2,South,22
+St5b,5.34,San Diego,CA,USA,2,South,22
+Pc2120,5.96,Riverside,CA,USA,2,South,22
+Pc2120,6.14,Riverside,CA,USA,2,South,22
+Pc2120,6.16,Riverside,CA,USA,2,South,22
+B9,6.22,Santa Barbara,CA,USA,2,North,22
+B9,6.82,Santa Barbara,CA,USA,2,North,22
+B9,6.39,Santa Barbara,CA,USA,2,North,22
+P367,5.39,Ventura,CA,USA,2,North,22
+P367,6.49,Ventura,CA,USA,2,North,22
+P367,5.52,Ventura,CA,USA,2,North,22
+P448,7.19,Ventura,CA,USA,2,North,22
+P448,7.02,Ventura,CA,USA,2,North,22
+P448,6.97,Ventura,CA,USA,2,North,22
+P454,7.26,Ventura,CA,USA,2,North,22
+P454,7.58,Ventura,CA,USA,2,North,22
+P454,6.98,Ventura,CA,USA,2,North,22
+P425,4.13,Ventura,CA,USA,2,North,22
+P425,3.64,Ventura,CA,USA,2,North,22
+P425,3.38,Ventura,CA,USA,2,North,22
+P426,6.66,Ventura,CA,USA,2,North,22
+P426,6.72,Ventura,CA,USA,2,North,22
+P426,6.86,Ventura,CA,USA,2,North,22
+P429,7.11,Ventura,CA,USA,2,North,22
+P429,7.37,Ventura,CA,USA,2,North,22
+P429,7.43,Ventura,CA,USA,2,North,22
+P322,8.36,Ventura,CA,USA,2,North,22
+P322,7.85,Ventura,CA,USA,2,North,22
+P322,8.1,Ventura,CA,USA,2,North,22
+P381,8.24,San Diego,CA,USA,2,South,22
+P381,8.32,San Diego,CA,USA,2,South,22
+P381,7.85,San Diego,CA,USA,2,South,22
+P508,5.75,San Diego,CA,USA,2,South,22
+P508,5.52,San Diego,CA,USA,2,South,22
+P508,5.92,San Diego,CA,USA,2,South,22
+P514,5.95,San Diego,CA,USA,2,South,22
+P514,6.16,San Diego,CA,USA,2,South,22
+P514,5.55,San Diego,CA,USA,2,South,22
+Pc2110,6.27,Ventura,CA,USA,2,North,22
+Pc2110,6.12,Ventura,CA,USA,2,North,22
+Pc2110,5.6,Ventura,CA,USA,2,North,22
+Pc2109,4.65,San Diego,CA,USA,2,South,22
+Pc2109,4.3,San Diego,CA,USA,2,South,22
+Pc2109,4.46,San Diego,CA,USA,2,South,22
+St6a,4.51,San Diego,CA,USA,2,South,22
+St6a,4.86,San Diego,CA,USA,2,South,22
+St6a,4.4,San Diego,CA,USA,2,South,22
+Van3,6.94,Ventura,CA,USA,2,North,22
+Van3,6.74,Ventura,CA,USA,2,North,22
+Van3,7.06,Ventura,CA,USA,2,North,22
+P2115,7.66,Ventura,CA,USA,2,North,22
+P2115,7.2,Ventura,CA,USA,2,North,22
+P2115,6.83,Ventura,CA,USA,2,North,22
+Pc2117,4.58,San Diego,CA,USA,2,South,22
+Pc2117,4.33,San Diego,CA,USA,2,South,22
+Pc2117,4.23,San Diego,CA,USA,2,South,22
+P352,6.01,San Diego,CA,USA,2,South,22
+P352,5.86,San Diego,CA,USA,2,South,22
+P352,5.96,San Diego,CA,USA,2,South,22
+P438,5.99,Santa Barbara,CA,USA,2,North,22
+P438,6.02,Santa Barbara,CA,USA,2,North,22
+P438,5.92,Santa Barbara,CA,USA,2,North,22
+P439,6.13,Santa Barbara,CA,USA,2,North,22
+P439,6.22,Santa Barbara,CA,USA,2,North,22
+P439,6.18,Santa Barbara,CA,USA,2,North,22
+L2_1,7.45,Ventura,CA,USA,2,North,22
+L2_1,6.96,Ventura,CA,USA,2,North,22
+L2_1,7.29,Ventura,CA,USA,2,North,22
+P520,6.01,San Diego,CA,USA,2,South,22
+P520,5.87,San Diego,CA,USA,2,South,22
+P520,5.91,San Diego,CA,USA,2,South,22
+P461,5.25,San Diego,CA,USA,2,South,22
+P461,4.78,San Diego,CA,USA,2,South,22
+P461,5.12,San Diego,CA,USA,2,South,22
+P467,7.04,San Diego,CA,USA,2,South,22
+P467,7.17,San Diego,CA,USA,2,South,22
+P467,7.09,San Diego,CA,USA,2,South,22
+P473,6.71,San Diego,CA,USA,2,South,22
+P473,6.34,San Diego,CA,USA,2,South,22
+P473,6.6,San Diego,CA,USA,2,South,22
+P482,7.99,San Diego,CA,USA,2,South,22
+P482,8.24,San Diego,CA,USA,2,South,22
+P482,7.91,San Diego,CA,USA,2,South,22
+P483,8.7,San Diego,CA,USA,2,South,22
+P483,8.37,San Diego,CA,USA,2,South,22
+P483,8.18,San Diego,CA,USA,2,South,22
+P485,4.1,San Diego,CA,USA,2,South,22
+P485,7.29,San Diego,CA,USA,2,South,22
+P485,7.64,San Diego,CA,USA,2,South,22
+P356,5.69,Riverside,CA,USA,2,South,22
+P356,5.78,Riverside,CA,USA,2,South,22
+P356,6.1,Riverside,CA,USA,2,South,22
+P360,7.61,Riverside,CA,USA,2,South,22
+P360,7.48,Riverside,CA,USA,2,South,22
+P360,7.97,Riverside,CA,USA,2,South,22
+B4,6.09,Santa Barbara,CA,USA,2,North,22
+B4,6.29,Santa Barbara,CA,USA,2,North,22
+B4,6.34,Santa Barbara,CA,USA,2,North,22
+P532,5.88,Riverside,CA,USA,2,South,22
+P532,6.1,Riverside,CA,USA,2,South,22
+P532,5.72,Riverside,CA,USA,2,South,22
+P553,5.5,Riverside,CA,USA,2,South,22
+P553,5.32,Riverside,CA,USA,2,South,22
+P553,5.49,Riverside,CA,USA,2,South,22
+OH3,7.51,Riverside,CA,USA,2,South,22
+OH3,6.95,Riverside,CA,USA,2,South,22
+OH3,7.36,Riverside,CA,USA,2,South,22
+OH3a,7.84,Riverside,CA,USA,2,South,22
+OH3a,7.65,Riverside,CA,USA,2,South,22
+OH3a,7.69,Riverside,CA,USA,2,South,22
+OH4,7.58,Riverside,CA,USA,2,South,22
+OH4,7.63,Riverside,CA,USA,2,South,22
+OH4,7.6,Riverside,CA,USA,2,South,22
+S2_1,6.19,Orange,CA,USA,2,North,22
+S2_1,6.48,Orange,CA,USA,2,North,22
+S2_1,6.77,Orange,CA,USA,2,North,22
+W3_1,5,Orange,CA,USA,2,North,22
+W3_1,4.56,Orange,CA,USA,2,North,22
+W3_1,5.42,Orange,CA,USA,2,North,22
+M403,7.51,Riverside,CA,USA,2,South,22
+M403,7.58,Riverside,CA,USA,2,South,22
+M403,6.77,Riverside,CA,USA,2,South,22
+M399,5.87,San Diego,CA,USA,2,South,22
+M399,5.88,San Diego,CA,USA,2,South,22
+M399,5.71,San Diego,CA,USA,2,South,22
+M398,4.74,San Diego,CA,USA,2,South,22
+M398,4.97,San Diego,CA,USA,2,South,22
+M398,4.77,San Diego,CA,USA,2,South,22
+M405,7.85,San Diego,CA,USA,2,South,22
+M405,8.07,San Diego,CA,USA,2,South,22
+M405,8.1,San Diego,CA,USA,2,South,22
+L14,7.4,Ventura,CA,USA,2,North,22
+L14,7.22,Ventura,CA,USA,2,North,22
+L14,7.1,Ventura,CA,USA,2,North,22
+P442,7.34,Ventura,CA,USA,2,North,22
+P442,7.54,Ventura,CA,USA,2,North,22
+P442,6.84,Ventura,CA,USA,2,North,22
+P444,7.59,Ventura,CA,USA,2,North,22
+P444,7.84,Ventura,CA,USA,2,North,22
+P444,7.6,Ventura,CA,USA,2,North,22
+P446,7.44,Ventura,CA,USA,2,North,22
+P446,7.48,Ventura,CA,USA,2,North,22
+P446,8.07,Ventura,CA,USA,2,North,22
+ZITR2_5,5.95,Zitacuaro,MC,MEXICO,1,NA,22
+ZITR2_5,6.37,Zitacuaro,MC,MEXICO,1,NA,22
+ZITR2_5,5.63,Zitacuaro,MC,MEXICO,1,NA,22
+ZCA5_3,6.44,Ziracuaretiro,MC,MEXICO,1,NA,22
+ZCA5_3,6.1,Ziracuaretiro,MC,MEXICO,1,NA,22
+ZCA5_3,6.24,Ziracuaretiro,MC,MEXICO,1,NA,22
+ZITR2_5,6.53,Zitacuaro,MC,MEXICO,2,NA,22
+ZITR2_5,6.08,Zitacuaro,MC,MEXICO,2,NA,22
+ZITR2_5,6.52,Zitacuaro,MC,MEXICO,2,NA,22
+ZCA5_3,6.97,Ziracuaretiro,MC,MEXICO,2,NA,22
+ZCA5_3,6.64,Ziracuaretiro,MC,MEXICO,2,NA,22
+ZCA5_3,6.28,Ziracuaretiro,MC,MEXICO,2,NA,22
+M401,6.02,San Diego,CA,USA,2,South,22
+M401,5.81,San Diego,CA,USA,2,South,22
+M401,6.07,San Diego,CA,USA,2,South,22
+M395,8.18,San Diego,CA,USA,2,South,22
+M395,8.31,San Diego,CA,USA,2,South,22
+M395,7.71,San Diego,CA,USA,2,South,22
+M397,5.38,San Diego,CA,USA,2,South,22
+M397,4.69,San Diego,CA,USA,2,South,22
+M397,5.19,San Diego,CA,USA,2,South,22
+M400,7.78,San Diego,CA,USA,2,South,22
+M400,7.71,San Diego,CA,USA,2,South,22
+M400,8.14,San Diego,CA,USA,2,South,22
+M402,6.35,Ventura,CA,USA,2,North,22
+M402,7.06,Ventura,CA,USA,2,North,22
+M402,6.95,Ventura,CA,USA,2,North,22
+M404,7.83,Riverside,CA,USA,2,South,22
+M404,7.6,Riverside,CA,USA,2,South,22
+M404,7.56,Riverside,CA,USA,2,South,22
+M293,8.64,Ventura,CA,USA,2,North,22
+M293,8.78,Ventura,CA,USA,2,North,22
+M293,8.26,Ventura,CA,USA,2,North,22
+M393,7.08,Unknown,Unknown,Unknown,2,NA,22
+M393,6.82,Unknown,Unknown,Unknown,2,NA,22
+M393,7.07,Unknown,Unknown,Unknown,2,NA,22
+M394,7.19,Unknown,Unknown,Unknown,2,NA,22
+M394,7.72,Unknown,Unknown,Unknown,2,NA,22
+M394,7.55,Unknown,Unknown,Unknown,2,NA,22
+P6377,6.98,Unknown,Unknown,Taiwan,2,NA,22
+P6377,6.56,Unknown,Unknown,Taiwan,2,NA,22
+P6377,6.62,Unknown,Unknown,Taiwan,2,NA,22
+P6339,7.86,Unknown,Unknown,Papua New Guinea,2,NA,22
+P6339,7.8,Unknown,Unknown,Papua New Guinea,2,NA,22
+P6339,7.94,Unknown,Unknown,Papua New Guinea,2,NA,22
+M401,5.28,San Diego,CA,USA,1,South,22
+M401,5.16,San Diego,CA,USA,1,South,22
+M401,5.51,San Diego,CA,USA,1,South,22
+M395,7.88,San Diego,CA,USA,1,South,22
+M395,6.98,San Diego,CA,USA,1,South,22
+M395,7.12,San Diego,CA,USA,1,South,22
+M397,4.02,San Diego,CA,USA,1,South,22
+M397,3.92,San Diego,CA,USA,1,South,22
+M397,3.67,San Diego,CA,USA,1,South,22
+M400,7.69,San Diego,CA,USA,1,South,22
+M400,7.62,San Diego,CA,USA,1,South,22
+M400,7.31,San Diego,CA,USA,1,South,22
+M402,6.01,Ventura,CA,USA,1,North,22
+M402,6.01,Ventura,CA,USA,1,North,22
+M402,6.03,Ventura,CA,USA,1,North,22
+M404,7.58,Riverside,CA,USA,1,South,22
+M404,6.94,Riverside,CA,USA,1,South,22
+M404,6.99,Riverside,CA,USA,1,South,22
+M293,8.23,Ventura,CA,USA,1,North,22
+M293,8.35,Ventura,CA,USA,1,North,22
+M293,8.44,Ventura,CA,USA,1,North,22
+M393,5.75,Unknown,Unknown,Unknown,1,NA,22
+M393,6.67,Unknown,Unknown,Unknown,1,NA,22
+M393,5.29,Unknown,Unknown,Unknown,1,NA,22
+M394,7.12,Unknown,Unknown,Unknown,1,NA,22
+M394,7.45,Unknown,Unknown,Unknown,1,NA,22
+M394,6.95,Unknown,Unknown,Unknown,1,NA,22
+P6377,6.22,Unknown,Unknown,Taiwan,1,NA,22
+P6377,6.68,Unknown,Unknown,Taiwan,1,NA,22
+P6377,6.89,Unknown,Unknown,Taiwan,1,NA,22
+P6339,8.46,Unknown,Unknown,Papua New Guinea,1,NA,22
+P6339,8.4,Unknown,Unknown,Papua New Guinea,1,NA,22
+P6339,8.32,Unknown,Unknown,Papua New Guinea,1,NA,22
+P3658,7.34,Unknown,Unknown,Papua New Guinea,2,NA,22
+P3658,6.88,Unknown,Unknown,Papua New Guinea,2,NA,22
+P3658,7.12,Unknown,Unknown,Papua New Guinea,2,NA,22
+P6379,4.95,Unknown,Unknown,Taiwan,2,NA,22
+P6379,4.93,Unknown,Unknown,Taiwan,2,NA,22
+P6379,5.29,Unknown,Unknown,Taiwan,2,NA,22
+MW4_1,7.54,San Diego,CA,USA,2,South,22
+MW4_1,7.96,San Diego,CA,USA,2,South,22
+MW4_1,7.12,San Diego,CA,USA,2,South,22
+ME9_1,6.9,San Diego,CA,USA,2,South,22
+ME9_1,6.59,San Diego,CA,USA,2,South,22
+ME9_1,7,San Diego,CA,USA,2,South,22
+ME1_1,8.99,San Diego,CA,USA,2,South,22
+ME1_1,7.87,San Diego,CA,USA,2,South,22
+ME1_1,7.87,San Diego,CA,USA,2,South,22
+OH5,6.38,Riverside,CA,USA,2,South,22
+OH5,6.52,Riverside,CA,USA,2,South,22
+OH5,6.47,Riverside,CA,USA,2,South,22
+345,7.29,Ventura,CA,USA,2,North,22
+345,7.16,Ventura,CA,USA,2,North,22
+345,7.63,Ventura,CA,USA,2,North,22
+M253,8.53,San Diego,CA,USA,2,South,22
+M253,8.42,San Diego,CA,USA,2,South,22
+M253,8.31,San Diego,CA,USA,2,South,22
+CBS14422,9.46,Unknown,Unknown,Indonesia,2,NA,22
+CBS14422,9.48,Unknown,Unknown,Indonesia,2,NA,22
+CBS14422,9.32,Unknown,Unknown,Indonesia,2,NA,22
+P3658,6.14,Unknown,Unknown,Papua New Guinea,1,NA,22
+P3658,6.27,Unknown,Unknown,Papua New Guinea,1,NA,22
+P3658,6.5,Unknown,Unknown,Papua New Guinea,1,NA,22
+P6379,5.01,Unknown,Unknown,Taiwan,1,NA,22
+P6379,4.92,Unknown,Unknown,Taiwan,1,NA,22
+P6379,4.67,Unknown,Unknown,Taiwan,1,NA,22
+MW4_1,6.74,San Diego,CA,USA,1,South,22
+MW4_1,7.3,San Diego,CA,USA,1,South,22
+MW4_1,7.13,San Diego,CA,USA,1,South,22
+ME9_1,6.37,San Diego,CA,USA,1,South,22
+ME9_1,6.85,San Diego,CA,USA,1,South,22
+ME9_1,6.35,San Diego,CA,USA,1,South,22
+ME1_1,7.24,San Diego,CA,USA,1,South,22
+ME1_1,6.85,San Diego,CA,USA,1,South,22
+ME1_1,6.62,San Diego,CA,USA,1,South,22
+OH5,7.07,Riverside,CA,USA,1,South,22
+OH5,7.04,Riverside,CA,USA,1,South,22
+OH5,7.06,Riverside,CA,USA,1,South,22
+345,6.93,Ventura,CA,USA,1,North,22
+345,6.71,Ventura,CA,USA,1,North,22
+345,6.99,Ventura,CA,USA,1,North,22
+M253,8.61,San Diego,CA,USA,1,South,22
+M253,8.09,San Diego,CA,USA,1,South,22
+M253,8.25,San Diego,CA,USA,1,South,22
+CBS14422,9.34,Unknown,Unknown,Indonesia,1,NA,22
+CBS14422,9.37,Unknown,Unknown,Indonesia,1,NA,22
+CBS14422,9.36,Unknown,Unknown,Indonesia,1,NA,22
+UPNS4_1,6.05,Uruapan,MC,MEXICO,1,NA,22
+UPNS4_1,5.72,Uruapan,MC,MEXICO,1,NA,22
+UPNS4_1,5.5,Uruapan,MC,MEXICO,1,NA,22
+TGR3_5,5.83,Tinguind’n,MC,MEXICO,1,NA,22
+TGR3_5,6.17,Tinguind’n,MC,MEXICO,1,NA,22
+TGR3_5,6.28,Tinguind’n,MC,MEXICO,1,NA,22
+TANS5_22,5.93,Tanc’taro,MC,MEXICO,1,NA,22
+TANS5_22,5.14,Tanc’taro,MC,MEXICO,1,NA,22
+TANS5_22,5.52,Tanc’taro,MC,MEXICO,1,NA,22
+ARR2_2,5.11,Ario de Rosales,MC,MEXICO,1,NA,22
+ARR2_2,5.5,Ario de Rosales,MC,MEXICO,1,NA,22
+ARR2_2,5.58,Ario de Rosales,MC,MEXICO,1,NA,22
+SER5_6,5.64,Salvador Escalante,MC,MEXICO,1,NA,22
+SER5_6,5.45,Salvador Escalante,MC,MEXICO,1,NA,22
+SER5_6,4.91,Salvador Escalante,MC,MEXICO,1,NA,22
+PRS4_18,7.37,Perib‡n,MC,MEXICO,1,NA,22
+PRS4_18,7.75,Perib‡n,MC,MEXICO,1,NA,22
+PRS4_18,6.7,Perib‡n,MC,MEXICO,1,NA,22
+SJNR6_22,5.29,San Juan Nuevo ,MC,MEXICO,1,NA,22
+SJNR6_22,5.74,San Juan Nuevo ,MC,MEXICO,1,NA,22
+SJNR6_22,5.64,San Juan Nuevo ,MC,MEXICO,1,NA,22
+UPNS4_1,5.61,Uruapan,MC,MEXICO,2,NA,22
+UPNS4_1,5.72,Uruapan,MC,MEXICO,2,NA,22
+UPNS4_1,5.78,Uruapan,MC,MEXICO,2,NA,22
+TGR3_5,6.5,Tinguind’n,MC,MEXICO,2,NA,22
+TGR3_5,6.33,Tinguind’n,MC,MEXICO,2,NA,22
+TGR3_5,6.5,Tinguind’n,MC,MEXICO,2,NA,22
+TANS5_22,5.44,Tanc’taro,MC,MEXICO,2,NA,22
+TANS5_22,5.21,Tanc’taro,MC,MEXICO,2,NA,22
+TANS5_22,5.66,Tanc’taro,MC,MEXICO,2,NA,22
+ARR2_2,5.88,Ario de Rosales,MC,MEXICO,2,NA,22
+ARR2_2,6.1,Ario de Rosales,MC,MEXICO,2,NA,22
+ARR2_2,5.05,Ario de Rosales,MC,MEXICO,2,NA,22
+SER5_6,6.02,Salvador Escalante,MC,MEXICO,2,NA,22
+SER5_6,5.89,Salvador Escalante,MC,MEXICO,2,NA,22
+SER5_6,6.46,Salvador Escalante,MC,MEXICO,2,NA,22
+PRS4_18,5.49,Perib‡n,MC,MEXICO,2,NA,22
+PRS4_18,5.85,Perib‡n,MC,MEXICO,2,NA,22
+PRS4_18,5.25,Perib‡n,MC,MEXICO,2,NA,22
+SJNR6_22,4.84,San Juan Nuevo ,MC,MEXICO,2,NA,22
+SJNR6_22,5.78,San Juan Nuevo ,MC,MEXICO,2,NA,22
+SJNR6_22,5.88,San Juan Nuevo ,MC,MEXICO,2,NA,22
+Pc5241,6.6,San Diego,CA,USA,1,South,22
+Pc5241,6.75,San Diego,CA,USA,1,South,22
+Pc5241,6.38,San Diego,CA,USA,1,South,22
+Pc338,5.51,San Diego,CA,USA,1,South,22
+Pc338,4.68,San Diego,CA,USA,1,South,22
+Pc338,5.24,San Diego,CA,USA,1,South,22
+Pc338,5.12,San Diego,CA,USA,2,South,22
+Pc338,5.45,San Diego,CA,USA,2,South,22
+Pc338,5,San Diego,CA,USA,2,South,22
+P398,8.62,Santa Barbara,CA,USA,1,North,25
+P398,8.95,Santa Barbara,CA,USA,1,North,25
+P398,9.82,Santa Barbara,CA,USA,1,North,25
+P407,7.51,Santa Barbara,CA,USA,1,North,25
+P407,8.25,Santa Barbara,CA,USA,1,North,25
+P407,8.52,Santa Barbara,CA,USA,1,North,25
+P349,4.1,Santa Barbara,CA,USA,1,North,25
+P349,3.79,Santa Barbara,CA,USA,1,North,25
+P349,4.4,Santa Barbara,CA,USA,1,North,25
+P344,6,Santa Barbara,CA,USA,1,North,25
+P344,5.69,Santa Barbara,CA,USA,1,North,25
+P344,6.04,Santa Barbara,CA,USA,1,North,25
+P245,6.85,Ventura,CA,USA,1,North,25
+P245,7.04,Ventura,CA,USA,1,North,25
+P245,6.85,Ventura,CA,USA,1,North,25
+P340,4.32,San Diego,CA,USA,1,South,25
+P340,5.52,San Diego,CA,USA,1,South,25
+P340,5.45,San Diego,CA,USA,1,South,25
+P207,8.18,San Diego,CA,USA,1,South,25
+P207,8.76,San Diego,CA,USA,1,South,25
+P207,7.77,San Diego,CA,USA,1,South,25
+P420,7.09,Santa Barbara,CA,USA,1,North,25
+P420,7.4,Santa Barbara,CA,USA,1,North,25
+P420,7.39,Santa Barbara,CA,USA,1,North,25
+Nik4_2,6.3,San Diego,CA,USA,1,South,25
+Nik4_2,7.51,San Diego,CA,USA,1,South,25
+Nik4_2,6.19,San Diego,CA,USA,1,South,25
+Pc336,5.51,San Diego,CA,USA,1,South,25
+Pc336,5.17,San Diego,CA,USA,1,South,25
+Pc336,5.19,San Diego,CA,USA,1,South,25
+P163,5.98,Riverside,CA,USA,1,South,25
+P163,6.44,Riverside,CA,USA,1,South,25
+P163,5.8,Riverside,CA,USA,1,South,25
+P216,7.02,Riverside,CA,USA,1,South,25
+P216,7.53,Riverside,CA,USA,1,South,25
+P216,7.5,Riverside,CA,USA,1,South,25
+R_1,8.58,Orange,CA,USA,1,South,25
+R_1,7.57,Orange,CA,USA,1,South,25
+R_1,7.87,Orange,CA,USA,1,South,25
+P14009,7.25,Ventura,CA,USA,1,North,25
+P14009,7.2,Ventura,CA,USA,1,North,25
+P14009,7.04,Ventura,CA,USA,1,North,25
+Pc2114,8.6,Ventura,CA,USA,1,North,25
+Pc2114,8.21,Ventura,CA,USA,1,North,25
+Pc2114,7.62,Ventura,CA,USA,1,North,25
+St5b,5.3,San Diego,CA,USA,1,South,25
+St5b,4.82,San Diego,CA,USA,1,South,25
+St5b,4.84,San Diego,CA,USA,1,South,25
+Pc2120,6.15,Riverside,CA,USA,1,South,25
+Pc2120,6.12,Riverside,CA,USA,1,South,25
+Pc2120,5.85,Riverside,CA,USA,1,South,25
+B9,7.06,Santa Barbara,CA,USA,1,North,25
+B9,6.72,Santa Barbara,CA,USA,1,North,25
+B9,6.9,Santa Barbara,CA,USA,1,North,25
+Pc2113,7.4,Santa Barbara,CA,USA,1,North,25
+Pc2113,8.07,Santa Barbara,CA,USA,1,North,25
+Pc2113,7.35,Santa Barbara,CA,USA,1,North,25
+Pc2109,4.17,San Diego,CA,USA,1,South,25
+Pc2109,4.17,San Diego,CA,USA,1,South,25
+Pc2109,4.44,San Diego,CA,USA,1,South,25
+St6a,4.48,San Diego,CA,USA,1,South,25
+St6a,4.6,San Diego,CA,USA,1,South,25
+St6a,4.69,San Diego,CA,USA,1,South,25
+Pc2110,5.3,Ventura,CA,USA,1,North,25
+Pc2110,4.39,Ventura,CA,USA,1,North,25
+Pc2110,5.57,Ventura,CA,USA,1,North,25
+Van3,7.03,Ventura,CA,USA,1,North,25
+Van3,6.71,Ventura,CA,USA,1,North,25
+Van3,7.18,Ventura,CA,USA,1,North,25
+P2115,8.71,Ventura,CA,USA,1,North,25
+P2115,8.39,Ventura,CA,USA,1,North,25
+P2115,8.32,Ventura,CA,USA,1,North,25
+Pc2117,4.88,San Diego,CA,USA,1,South,25
+Pc2117,4.73,San Diego,CA,USA,1,South,25
+Pc2117,4.68,San Diego,CA,USA,1,South,25
+P352,6.3,San Diego,CA,USA,1,South,25
+P352,6.03,San Diego,CA,USA,1,South,25
+P352,6.35,San Diego,CA,USA,1,South,25
+P438,6.41,Santa Barbara,CA,USA,1,North,25
+P438,6.17,Santa Barbara,CA,USA,1,North,25
+P438,6.27,Santa Barbara,CA,USA,1,North,25
+P439,5.96,Santa Barbara,CA,USA,1,North,25
+P439,5.54,Santa Barbara,CA,USA,1,North,25
+P439,6.36,Santa Barbara,CA,USA,1,North,25
+L2_1,7.62,Ventura,CA,USA,1,North,25
+L2_1,7.77,Ventura,CA,USA,1,North,25
+L2_1,7.87,Ventura,CA,USA,1,North,25
+P367,5.05,Ventura,CA,USA,1,North,25
+P367,4.88,Ventura,CA,USA,1,North,25
+P367,5.22,Ventura,CA,USA,1,North,25
+P448,6.84,Ventura,CA,USA,1,North,25
+P448,6.59,Ventura,CA,USA,1,North,25
+P448,6.93,Ventura,CA,USA,1,North,25
+P454,6.24,Ventura,CA,USA,1,North,25
+P454,6.35,Ventura,CA,USA,1,North,25
+P454,6.54,Ventura,CA,USA,1,North,25
+P425,3.86,Ventura,CA,USA,1,North,25
+P425,3.26,Ventura,CA,USA,1,North,25
+P425,4.2,Ventura,CA,USA,1,North,25
+P426,7.18,Ventura,CA,USA,1,North,25
+P426,6.89,Ventura,CA,USA,1,North,25
+P426,6.48,Ventura,CA,USA,1,North,25
+P429,6.4,Ventura,CA,USA,1,North,25
+P429,6.35,Ventura,CA,USA,1,North,25
+P429,6.39,Ventura,CA,USA,1,North,25
+P322,7.55,Ventura,CA,USA,1,North,25
+P322,7.87,Ventura,CA,USA,1,North,25
+P322,7.88,Ventura,CA,USA,1,North,25
+P381,8.53,San Diego,CA,USA,1,South,25
+P381,8.17,San Diego,CA,USA,1,South,25
+P381,8.72,San Diego,CA,USA,1,South,25
+P508,4.54,San Diego,CA,USA,1,South,25
+P508,5.27,San Diego,CA,USA,1,South,25
+P508,4.79,San Diego,CA,USA,1,South,25
+P514,5.15,San Diego,CA,USA,1,South,25
+P514,5.42,San Diego,CA,USA,1,South,25
+P514,5.59,San Diego,CA,USA,1,South,25
+P520,5.28,San Diego,CA,USA,1,South,25
+P520,5.34,San Diego,CA,USA,1,South,25
+P520,5.16,San Diego,CA,USA,1,South,25
+P461,6.89,San Diego,CA,USA,1,South,25
+P461,5.33,San Diego,CA,USA,1,South,25
+P461,5.11,San Diego,CA,USA,1,South,25
+P467,6.03,San Diego,CA,USA,1,South,25
+P467,5.64,San Diego,CA,USA,1,South,25
+P467,6.17,San Diego,CA,USA,1,South,25
+P473,5.89,San Diego,CA,USA,1,South,25
+P473,5.29,San Diego,CA,USA,1,South,25
+P473,6.52,San Diego,CA,USA,1,South,25
+P482,8.61,San Diego,CA,USA,1,South,25
+P482,7.77,San Diego,CA,USA,1,South,25
+P482,6.29,San Diego,CA,USA,1,South,25
+P483,8.28,San Diego,CA,USA,1,South,25
+P483,8.32,San Diego,CA,USA,1,South,25
+P483,8.75,San Diego,CA,USA,1,South,25
+P356,5.45,Riverside,CA,USA,1,South,25
+P356,5.53,Riverside,CA,USA,1,South,25
+P356,5.23,Riverside,CA,USA,1,South,25
+P360,5.88,Riverside,CA,USA,1,South,25
+P360,7.53,Riverside,CA,USA,1,South,25
+P360,7.35,Riverside,CA,USA,1,South,25
+B4,5.05,Santa Barbara,CA,USA,1,North,25
+B4,5.59,Santa Barbara,CA,USA,1,North,25
+B4,4.94,Santa Barbara,CA,USA,1,North,25
+P532,5.5,Riverside,CA,USA,1,South,25
+P532,5.86,Riverside,CA,USA,1,South,25
+P532,5.48,Riverside,CA,USA,1,South,25
+P553,5.93,Riverside,CA,USA,1,South,25
+P553,4.97,Riverside,CA,USA,1,South,25
+P553,5.27,Riverside,CA,USA,1,South,25
+OH3,7.39,Riverside,CA,USA,1,South,25
+OH3,3.46,Riverside,CA,USA,1,South,25
+OH3,7.23,Riverside,CA,USA,1,South,25
+OH3a,8.18,Riverside,CA,USA,1,South,25
+OH3a,8.1,Riverside,CA,USA,1,South,25
+OH3a,8.44,Riverside,CA,USA,1,South,25
+OH4,7.13,Riverside,CA,USA,1,South,25
+OH4,7.28,Riverside,CA,USA,1,South,25
+OH4,7.15,Riverside,CA,USA,1,South,25
+S2_1,7.16,Orange,CA,USA,1,North,25
+S2_1,7.01,Orange,CA,USA,1,North,25
+S2_1,7.4,Orange,CA,USA,1,North,25
+W3_1,5.44,Orange,CA,USA,1,North,25
+W3_1,6.44,Orange,CA,USA,1,North,25
+W3_1,5.55,Orange,CA,USA,1,North,25
+M403,6.76,Riverside,CA,USA,1,South,25
+M403,6.71,Riverside,CA,USA,1,South,25
+M403,6.83,Riverside,CA,USA,1,South,25
+M399,5.22,San Diego,CA,USA,1,South,25
+M399,5.69,San Diego,CA,USA,1,South,25
+M399,5.56,San Diego,CA,USA,1,South,25
+M398,4.63,San Diego,CA,USA,1,South,25
+M398,4.49,San Diego,CA,USA,1,South,25
+M398,4.34,San Diego,CA,USA,1,South,25
+M405,8.37,San Diego,CA,USA,1,South,25
+M405,8.8,San Diego,CA,USA,1,South,25
+M405,8.66,San Diego,CA,USA,1,South,25
+L14,8.1,Ventura,CA,USA,1,North,25
+L14,8.37,Ventura,CA,USA,1,North,25
+L14,7.69,Ventura,CA,USA,1,North,25
+P442,7.32,Ventura,CA,USA,1,North,25
+P442,7.45,Ventura,CA,USA,1,North,25
+P442,6.88,Ventura,CA,USA,1,North,25
+P444,7.23,Ventura,CA,USA,1,North,25
+P444,7.13,Ventura,CA,USA,1,North,25
+P444,6.7,Ventura,CA,USA,1,North,25
+P446,8,Ventura,CA,USA,1,North,25
+P446,8.17,Ventura,CA,USA,1,North,25
+P446,7.71,Ventura,CA,USA,1,North,25
+P485,6.91,San Diego,CA,USA,1,South,25
+P485,3.7,San Diego,CA,USA,1,South,25
+P485,2.75,San Diego,CA,USA,1,South,25
+P398,9.81,Santa Barbara,CA,USA,2,North,25
+P398,9.75,Santa Barbara,CA,USA,2,North,25
+P398,9.79,Santa Barbara,CA,USA,2,North,25
+P407,7.96,Santa Barbara,CA,USA,2,North,25
+P407,8.09,Santa Barbara,CA,USA,2,North,25
+P407,7.95,Santa Barbara,CA,USA,2,North,25
+P349,5.24,Santa Barbara,CA,USA,2,North,25
+P349,5.05,Santa Barbara,CA,USA,2,North,25
+P349,4.66,Santa Barbara,CA,USA,2,North,25
+P344,6.58,Santa Barbara,CA,USA,2,North,25
+P344,7.35,Santa Barbara,CA,USA,2,North,25
+P344,6.82,Santa Barbara,CA,USA,2,North,25
+P245,6.07,Ventura,CA,USA,2,North,25
+P245,6.32,Ventura,CA,USA,2,North,25
+P245,6.78,Ventura,CA,USA,2,North,25
+P207,9.35,San Diego,CA,USA,2,South,25
+P207,8.8,San Diego,CA,USA,2,South,25
+P207,9.4,San Diego,CA,USA,2,South,25
+P340,5.19,San Diego,CA,USA,2,South,25
+P340,5.31,San Diego,CA,USA,2,South,25
+P340,5.58,San Diego,CA,USA,2,South,25
+Nik4_2,7.28,San Diego,CA,USA,2,South,25
+Nik4_2,6.61,San Diego,CA,USA,2,South,25
+Nik4_2,7.36,San Diego,CA,USA,2,South,25
+P420,8.39,Santa Barbara,CA,USA,2,North,25
+P420,8.31,Santa Barbara,CA,USA,2,North,25
+P420,8.5,Santa Barbara,CA,USA,2,North,25
+Pc336,5.57,San Diego,CA,USA,2,South,25
+Pc336,5.3,San Diego,CA,USA,2,South,25
+Pc336,5.93,San Diego,CA,USA,2,South,25
+P163,6.07,Riverside,CA,USA,2,South,25
+P163,6.16,Riverside,CA,USA,2,South,25
+P163,6.39,Riverside,CA,USA,2,South,25
+P216,6.89,Riverside,CA,USA,2,South,25
+P216,7.81,Riverside,CA,USA,2,South,25
+P216,7.47,Riverside,CA,USA,2,South,25
+R_1,8.56,Orange,CA,USA,2,North,25
+R_1,8.47,Orange,CA,USA,2,North,25
+R_1,9.05,Orange,CA,USA,2,North,25
+P14009,7.01,Ventura,CA,USA,2,North,25
+P14009,7.71,Ventura,CA,USA,2,North,25
+P14009,7.42,Ventura,CA,USA,2,North,25
+Pc2113,7.28,Santa Barbara,CA,USA,2,North,25
+Pc2113,7.74,Santa Barbara,CA,USA,2,North,25
+Pc2113,8.24,Santa Barbara,CA,USA,2,North,25
+Pc2114,8.62,Ventura,CA,USA,2,North,25
+Pc2114,7.76,Ventura,CA,USA,2,North,25
+Pc2114,8.33,Ventura,CA,USA,2,North,25
+St5b,4.98,San Diego,CA,USA,2,South,25
+St5b,5.72,San Diego,CA,USA,2,South,25
+St5b,4.35,San Diego,CA,USA,2,South,25
+Pc2120,5.85,Riverside,CA,USA,2,South,25
+Pc2120,5.8,Riverside,CA,USA,2,South,25
+Pc2120,5.95,Riverside,CA,USA,2,South,25
+B9,6.88,Santa Barbara,CA,USA,2,North,25
+B9,6.64,Santa Barbara,CA,USA,2,North,25
+B9,6.8,Santa Barbara,CA,USA,2,North,25
+P367,5.29,Ventura,CA,USA,2,North,25
+P367,5.42,Ventura,CA,USA,2,North,25
+P367,5.38,Ventura,CA,USA,2,North,25
+P448,6.72,Ventura,CA,USA,2,North,25
+P448,7.58,Ventura,CA,USA,2,North,25
+P448,7.09,Ventura,CA,USA,2,North,25
+P454,6.92,Ventura,CA,USA,2,North,25
+P454,7.01,Ventura,CA,USA,2,North,25
+P454,6.9,Ventura,CA,USA,2,North,25
+P425,3.83,Ventura,CA,USA,2,North,25
+P425,3.47,Ventura,CA,USA,2,North,25
+P425,2.97,Ventura,CA,USA,2,North,25
+P426,6.42,Ventura,CA,USA,2,North,25
+P426,6.86,Ventura,CA,USA,2,North,25
+P426,6.45,Ventura,CA,USA,2,North,25
+P429,6.57,Ventura,CA,USA,2,North,25
+P429,6.22,Ventura,CA,USA,2,North,25
+P429,6.59,Ventura,CA,USA,2,North,25
+P322,8.07,Ventura,CA,USA,2,North,25
+P322,7.9,Ventura,CA,USA,2,North,25
+P322,7.7,Ventura,CA,USA,2,North,25
+P381,8.9,San Diego,CA,USA,2,South,25
+P381,9.01,San Diego,CA,USA,2,South,25
+P381,8.92,San Diego,CA,USA,2,South,25
+P508,5.26,San Diego,CA,USA,2,South,25
+P508,5.34,San Diego,CA,USA,2,South,25
+P508,5.41,San Diego,CA,USA,2,South,25
+P514,5.96,San Diego,CA,USA,2,South,25
+P514,5.99,San Diego,CA,USA,2,South,25
+P514,5.9,San Diego,CA,USA,2,South,25
+Pc2110,6.04,Ventura,CA,USA,2,North,25
+Pc2110,6,Ventura,CA,USA,2,North,25
+Pc2110,5.5,Ventura,CA,USA,2,North,25
+Pc2109,4.64,San Diego,CA,USA,2,South,25
+Pc2109,4.27,San Diego,CA,USA,2,South,25
+Pc2109,4.31,San Diego,CA,USA,2,South,25
+St6a,4.69,San Diego,CA,USA,2,South,25
+St6a,4.39,San Diego,CA,USA,2,South,25
+St6a,4.4,San Diego,CA,USA,2,South,25
+Van3,5.79,Ventura,CA,USA,2,North,25
+Van3,6.44,Ventura,CA,USA,2,North,25
+Van3,5.82,Ventura,CA,USA,2,North,25
+P2115,7.22,Ventura,CA,USA,2,North,25
+P2115,7.62,Ventura,CA,USA,2,North,25
+P2115,7.5,Ventura,CA,USA,2,North,25
+Pc2117,4.65,San Diego,CA,USA,2,South,25
+Pc2117,4.47,San Diego,CA,USA,2,South,25
+Pc2117,4.86,San Diego,CA,USA,2,South,25
+P352,5.71,San Diego,CA,USA,2,South,25
+P352,5.71,San Diego,CA,USA,2,South,25
+P352,6.26,San Diego,CA,USA,2,South,25
+P438,4.99,Santa Barbara,CA,USA,2,North,25
+P438,5.49,Santa Barbara,CA,USA,2,North,25
+P438,5.53,Santa Barbara,CA,USA,2,North,25
+P439,5.63,Santa Barbara,CA,USA,2,North,25
+P439,5.61,Santa Barbara,CA,USA,2,North,25
+P439,5.45,Santa Barbara,CA,USA,2,North,25
+L2_1,7.78,Ventura,CA,USA,2,North,25
+L2_1,7.23,Ventura,CA,USA,2,North,25
+L2_1,7.77,Ventura,CA,USA,2,North,25
+P520,5.43,San Diego,CA,USA,2,South,25
+P520,6.26,San Diego,CA,USA,2,South,25
+P520,6.07,San Diego,CA,USA,2,South,25
+P461,5.83,San Diego,CA,USA,2,South,25
+P461,5.99,San Diego,CA,USA,2,South,25
+P461,6.07,San Diego,CA,USA,2,South,25
+P467,6.98,San Diego,CA,USA,2,South,25
+P467,6.57,San Diego,CA,USA,2,South,25
+P467,7.16,San Diego,CA,USA,2,South,25
+P473,6.9,San Diego,CA,USA,2,South,25
+P473,6.57,San Diego,CA,USA,2,South,25
+P473,6.3,San Diego,CA,USA,2,South,25
+P482,7.7,San Diego,CA,USA,2,South,25
+P482,8.47,San Diego,CA,USA,2,South,25
+P482,8.16,San Diego,CA,USA,2,South,25
+P483,8.82,San Diego,CA,USA,2,South,25
+P483,8.85,San Diego,CA,USA,2,South,25
+P483,8.97,San Diego,CA,USA,2,South,25
+P485,4.47,San Diego,CA,USA,2,South,25
+P485,6.25,San Diego,CA,USA,2,South,25
+P485,2.65,San Diego,CA,USA,2,South,25
+P356,5.74,Riverside,CA,USA,2,South,25
+P356,5.88,Riverside,CA,USA,2,South,25
+P356,5.86,Riverside,CA,USA,2,South,25
+P360,8.27,Riverside,CA,USA,2,South,25
+P360,7.69,Riverside,CA,USA,2,South,25
+P360,8.44,Riverside,CA,USA,2,South,25
+B4,5.92,Santa Barbara,CA,USA,2,North,25
+B4,6.3,Santa Barbara,CA,USA,2,North,25
+B4,5.69,Santa Barbara,CA,USA,2,North,25
+P532,5.56,Riverside,CA,USA,2,South,25
+P532,5.88,Riverside,CA,USA,2,South,25
+P532,6.07,Riverside,CA,USA,2,South,25
+P553,5.5,Riverside,CA,USA,2,South,25
+P553,5.98,Riverside,CA,USA,2,South,25
+P553,5.88,Riverside,CA,USA,2,South,25
+OH3,6.92,Riverside,CA,USA,2,South,25
+OH3,7.42,Riverside,CA,USA,2,South,25
+OH3,6.42,Riverside,CA,USA,2,South,25
+OH3a,8.6,Riverside,CA,USA,2,South,25
+OH3a,8.81,Riverside,CA,USA,2,South,25
+OH3a,7.81,Riverside,CA,USA,2,South,25
+OH4,7.88,Riverside,CA,USA,2,South,25
+OH4,8.89,Riverside,CA,USA,2,South,25
+OH4,8.81,Riverside,CA,USA,2,South,25
+S2_1,7.28,Orange,CA,USA,2,North,25
+S2_1,6.57,Orange,CA,USA,2,North,25
+S2_1,7.12,Orange,CA,USA,2,North,25
+W3_1,6.44,Orange,CA,USA,2,North,25
+W3_1,5.84,Orange,CA,USA,2,North,25
+W3_1,6.68,Orange,CA,USA,2,North,25
+M403,6.39,Riverside,CA,USA,2,South,25
+M403,6.35,Riverside,CA,USA,2,South,25
+M403,6.26,Riverside,CA,USA,2,South,25
+M399,6.1,San Diego,CA,USA,2,South,25
+M399,5.8,San Diego,CA,USA,2,South,25
+M399,5.89,San Diego,CA,USA,2,South,25
+M398,5.08,San Diego,CA,USA,2,South,25
+M398,4.94,San Diego,CA,USA,2,South,25
+M398,5.29,San Diego,CA,USA,2,South,25
+M405,8.59,San Diego,CA,USA,2,South,25
+M405,8.61,San Diego,CA,USA,2,South,25
+M405,8.74,San Diego,CA,USA,2,South,25
+L14,7.44,Ventura,CA,USA,2,North,25
+L14,7.86,Ventura,CA,USA,2,North,25
+L14,7.48,Ventura,CA,USA,2,North,25
+P442,7.19,Ventura,CA,USA,2,North,25
+P442,7.65,Ventura,CA,USA,2,North,25
+P442,7.02,Ventura,CA,USA,2,North,25
+P444,7.48,Ventura,CA,USA,2,North,25
+P444,7.67,Ventura,CA,USA,2,North,25
+P444,7.52,Ventura,CA,USA,2,North,25
+P446,8.25,Ventura,CA,USA,2,North,25
+P446,8.19,Ventura,CA,USA,2,North,25
+P446,8.51,Ventura,CA,USA,2,North,25
+ZITR2_5,5.72,Zitacuaro,MC,MEXICO,1,NA,25
+ZITR2_5,6.01,Zitacuaro,MC,MEXICO,1,NA,25
+ZITR2_5,6.04,Zitacuaro,MC,MEXICO,1,NA,25
+ZCA5_3,6.27,Ziracuaretiro,MC,MEXICO,1,NA,25
+ZCA5_3,5.97,Ziracuaretiro,MC,MEXICO,1,NA,25
+ZCA5_3,5.75,Ziracuaretiro,MC,MEXICO,1,NA,25
+ZITR2_5,5.95,Zitacuaro,MC,MEXICO,2,NA,25
+ZITR2_5,6.34,Zitacuaro,MC,MEXICO,2,NA,25
+ZITR2_5,6.46,Zitacuaro,MC,MEXICO,2,NA,25
+ZCA5_3,6.79,Ziracuaretiro,MC,MEXICO,2,NA,25
+ZCA5_3,7.8,Ziracuaretiro,MC,MEXICO,2,NA,25
+ZCA5_3,7.18,Ziracuaretiro,MC,MEXICO,2,NA,25
+M401,5.35,San Diego,CA,USA,2,South,25
+M401,5.73,San Diego,CA,USA,2,South,25
+M401,5.9,San Diego,CA,USA,2,South,25
+M395,6.93,San Diego,CA,USA,2,South,25
+M395,7.4,San Diego,CA,USA,2,South,25
+M395,7.02,San Diego,CA,USA,2,South,25
+M397,4.16,San Diego,CA,USA,2,South,25
+M397,4.46,San Diego,CA,USA,2,South,25
+M397,4.34,San Diego,CA,USA,2,South,25
+M400,7.55,San Diego,CA,USA,2,South,25
+M400,7.07,San Diego,CA,USA,2,South,25
+M400,6.98,San Diego,CA,USA,2,South,25
+M402,7.65,Ventura,CA,USA,2,North,25
+M402,7.74,Ventura,CA,USA,2,North,25
+M402,7.43,Ventura,CA,USA,2,North,25
+M404,6.94,Riverside,CA,USA,2,South,25
+M404,6.08,Riverside,CA,USA,2,South,25
+M404,6.15,Riverside,CA,USA,2,South,25
+M293,8.69,Ventura,CA,USA,2,North,25
+M293,8.14,Ventura,CA,USA,2,North,25
+M293,8.27,Ventura,CA,USA,2,North,25
+M393,6.01,Unknown,Unknown,Unknown,2,NA,25
+M393,5.96,Unknown,Unknown,Unknown,2,NA,25
+M393,6.21,Unknown,Unknown,Unknown,2,NA,25
+M394,7.46,Unknown,Unknown,Unknown,2,NA,25
+M394,6.91,Unknown,Unknown,Unknown,2,NA,25
+M394,7.1,Unknown,Unknown,Unknown,2,NA,25
+P6377,6.05,Unknown,Unknown,Taiwan,2,NA,25
+P6377,6.27,Unknown,Unknown,Taiwan,2,NA,25
+P6377,6.92,Unknown,Unknown,Taiwan,2,NA,25
+P6339,7.65,Unknown,Unknown,Papua New Guinea,2,NA,25
+P6339,7.68,Unknown,Unknown,Papua New Guinea,2,NA,25
+P6339,7.27,Unknown,Unknown,Papua New Guinea,2,NA,25
+M401,5.4,San Diego,CA,USA,1,South,25
+M401,5.16,San Diego,CA,USA,1,South,25
+M401,5.35,San Diego,CA,USA,1,South,25
+M395,6.48,San Diego,CA,USA,1,South,25
+M395,6.62,San Diego,CA,USA,1,South,25
+M395,6.59,San Diego,CA,USA,1,South,25
+M397,4.51,San Diego,CA,USA,1,South,25
+M397,4.14,San Diego,CA,USA,1,South,25
+M397,4.5,San Diego,CA,USA,1,South,25
+M400,6.78,San Diego,CA,USA,1,South,25
+M400,7.04,San Diego,CA,USA,1,South,25
+M400,7.77,San Diego,CA,USA,1,South,25
+M402,7.43,Ventura,CA,USA,1,North,25
+M402,7.5,Ventura,CA,USA,1,North,25
+M402,7.33,Ventura,CA,USA,1,North,25
+M404,5.93,Riverside,CA,USA,1,South,25
+M404,5.95,Riverside,CA,USA,1,South,25
+M404,5.86,Riverside,CA,USA,1,South,25
+M293,8.41,Ventura,CA,USA,1,North,25
+M293,8.44,Ventura,CA,USA,1,North,25
+M293,8.37,Ventura,CA,USA,1,North,25
+M393,5.67,Unknown,Unknown,Unknown,1,NA,25
+M393,6.31,Unknown,Unknown,Unknown,1,NA,25
+M393,6.14,Unknown,Unknown,Unknown,1,NA,25
+M394,6.98,Unknown,Unknown,Unknown,1,NA,25
+M394,6.82,Unknown,Unknown,Unknown,1,NA,25
+M394,7.3,Unknown,Unknown,Unknown,1,NA,25
+P6377,6.02,Unknown,Unknown,Taiwan,1,NA,25
+P6377,6.95,Unknown,Unknown,Taiwan,1,NA,25
+P6377,6.39,Unknown,Unknown,Taiwan,1,NA,25
+P6339,7.49,Unknown,Unknown,Papua New Guinea,1,NA,25
+P6339,7.55,Unknown,Unknown,Papua New Guinea,1,NA,25
+P6339,8,Unknown,Unknown,Papua New Guinea,1,NA,25
+P3658,7.01,Unknown,Unknown,Papua New Guinea,2,NA,25
+P3658,7.37,Unknown,Unknown,Papua New Guinea,2,NA,25
+P3658,7.72,Unknown,Unknown,Papua New Guinea,2,NA,25
+P6379,5.06,Unknown,Unknown,Taiwan,2,NA,25
+P6379,5.16,Unknown,Unknown,Taiwan,2,NA,25
+P6379,4.97,Unknown,Unknown,Taiwan,2,NA,25
+MW4_1,8.14,San Diego,CA,USA,2,South,25
+MW4_1,6.83,San Diego,CA,USA,2,South,25
+MW4_1,6.36,San Diego,CA,USA,2,South,25
+ME9_1,5.15,San Diego,CA,USA,2,South,25
+ME9_1,5.23,San Diego,CA,USA,2,South,25
+ME9_1,5.73,San Diego,CA,USA,2,South,25
+ME1_1,7.38,San Diego,CA,USA,2,South,25
+ME1_1,7.44,San Diego,CA,USA,2,South,25
+ME1_1,7.19,San Diego,CA,USA,2,South,25
+OH5,6.11,Riverside,CA,USA,2,South,25
+OH5,6.6,Riverside,CA,USA,2,South,25
+OH5,5.97,Riverside,CA,USA,2,South,25
+345,5.87,Ventura,CA,USA,2,North,25
+345,5.88,Ventura,CA,USA,2,North,25
+345,6.12,Ventura,CA,USA,2,North,25
+M253,8.34,San Diego,CA,USA,2,South,25
+M253,8.67,San Diego,CA,USA,2,South,25
+M253,8.71,San Diego,CA,USA,2,South,25
+CBS14422,9.54,Unknown,Unknown,Indonesia,2,NA,25
+CBS14422,9.36,Unknown,Unknown,Indonesia,2,NA,25
+CBS14422,9.35,Unknown,Unknown,Indonesia,2,NA,25
+P3658,5.93,Unknown,Unknown,Papua New Guinea,1,NA,25
+P3658,6.88,Unknown,Unknown,Papua New Guinea,1,NA,25
+P3658,7.03,Unknown,Unknown,Papua New Guinea,1,NA,25
+P6379,4.73,Unknown,Unknown,Taiwan,1,NA,25
+P6379,4.62,Unknown,Unknown,Taiwan,1,NA,25
+P6379,4.84,Unknown,Unknown,Taiwan,1,NA,25
+MW4_1,6.02,San Diego,CA,USA,1,South,25
+MW4_1,5.98,San Diego,CA,USA,1,South,25
+MW4_1,6.08,San Diego,CA,USA,1,South,25
+ME9_1,5.16,San Diego,CA,USA,1,South,25
+ME9_1,5.25,San Diego,CA,USA,1,South,25
+ME9_1,5.09,San Diego,CA,USA,1,South,25
+ME1_1,7.27,San Diego,CA,USA,1,South,25
+ME1_1,7.3,San Diego,CA,USA,1,South,25
+ME1_1,7.54,San Diego,CA,USA,1,South,25
+OH5,6.95,Riverside,CA,USA,1,South,25
+OH5,6.6,Riverside,CA,USA,1,South,25
+OH5,7.11,Riverside,CA,USA,1,South,25
+345,5.73,Ventura,CA,USA,1,North,25
+345,6.16,Ventura,CA,USA,1,North,25
+345,5.84,Ventura,CA,USA,1,North,25
+M253,8.09,San Diego,CA,USA,1,South,25
+M253,8.94,San Diego,CA,USA,1,South,25
+M253,8.55,San Diego,CA,USA,1,South,25
+CBS14422,9.9,Unknown,Unknown,Indonesia,1,NA,25
+CBS14422,10.12,Unknown,Unknown,Indonesia,1,NA,25
+CBS14422,9.96,Unknown,Unknown,Indonesia,1,NA,25
+UPNS4_1,6.11,Uruapan,MC,MEXICO,1,NA,25
+UPNS4_1,5.44,Uruapan,MC,MEXICO,1,NA,25
+UPNS4_1,5.7,Uruapan,MC,MEXICO,1,NA,25
+TGR3_5,5.84,Tinguind’n,MC,MEXICO,1,NA,25
+TGR3_5,6.05,Tinguind’n,MC,MEXICO,1,NA,25
+TGR3_5,6.1,Tinguind’n,MC,MEXICO,1,NA,25
+TANS5_22,5.97,Tanc’taro,MC,MEXICO,1,NA,25
+TANS5_22,5.46,Tanc’taro,MC,MEXICO,1,NA,25
+TANS5_22,5.49,Tanc’taro,MC,MEXICO,1,NA,25
+ARR2_2,5.19,Ario de Rosales,MC,MEXICO,1,NA,25
+ARR2_2,5.57,Ario de Rosales,MC,MEXICO,1,NA,25
+ARR2_2,5.62,Ario de Rosales,MC,MEXICO,1,NA,25
+SER5_6,4.92,Salvador Escalante,MC,MEXICO,1,NA,25
+SER5_6,5.25,Salvador Escalante,MC,MEXICO,1,NA,25
+SER5_6,5.21,Salvador Escalante,MC,MEXICO,1,NA,25
+PRS4_18,5.11,Perib‡n,MC,MEXICO,1,NA,25
+PRS4_18,5.11,Perib‡n,MC,MEXICO,1,NA,25
+PRS4_18,5.35,Perib‡n,MC,MEXICO,1,NA,25
+SJNR6_22,4.97,San Juan Nuevo ,MC,MEXICO,1,NA,25
+SJNR6_22,5.24,San Juan Nuevo ,MC,MEXICO,1,NA,25
+SJNR6_22,5.11,San Juan Nuevo ,MC,MEXICO,1,NA,25
+UPNS4_1,5.58,Uruapan,MC,MEXICO,2,NA,25
+UPNS4_1,6.08,Uruapan,MC,MEXICO,2,NA,25
+UPNS4_1,5.72,Uruapan,MC,MEXICO,2,NA,25
+TGR3_5,6.21,Tinguind’n,MC,MEXICO,2,NA,25
+TGR3_5,6.37,Tinguind’n,MC,MEXICO,2,NA,25
+TGR3_5,6.57,Tinguind’n,MC,MEXICO,2,NA,25
+TANS5_22,5.34,Tanc’taro,MC,MEXICO,2,NA,25
+TANS5_22,5.65,Tanc’taro,MC,MEXICO,2,NA,25
+TANS5_22,5.58,Tanc’taro,MC,MEXICO,2,NA,25
+ARR2_2,6.32,Ario de Rosales,MC,MEXICO,2,NA,25
+ARR2_2,6.12,Ario de Rosales,MC,MEXICO,2,NA,25
+ARR2_2,6.23,Ario de Rosales,MC,MEXICO,2,NA,25
+SER5_6,5.35,Salvador Escalante,MC,MEXICO,2,NA,25
+SER5_6,5.43,Salvador Escalante,MC,MEXICO,2,NA,25
+SER5_6,5.55,Salvador Escalante,MC,MEXICO,2,NA,25
+PRS4_18,6.03,Perib‡n,MC,MEXICO,2,NA,25
+PRS4_18,5.95,Perib‡n,MC,MEXICO,2,NA,25
+PRS4_18,6.42,Perib‡n,MC,MEXICO,2,NA,25
+SJNR6_22,4.79,San Juan Nuevo ,MC,MEXICO,2,NA,25
+SJNR6_22,5.41,San Juan Nuevo ,MC,MEXICO,2,NA,25
+SJNR6_22,5.56,San Juan Nuevo ,MC,MEXICO,2,NA,25
+Pc5241,6.56,San Diego,CA,USA,1,South,25
+Pc5241,6.57,San Diego,CA,USA,1,South,25
+Pc5241,6.87,San Diego,CA,USA,1,South,25
+Pc338,5.32,San Diego,CA,USA,1,South,25
+Pc338,5.52,San Diego,CA,USA,1,South,25
+Pc338,5.73,San Diego,CA,USA,1,South,25
+Pc338,4.76,San Diego,CA,USA,2,South,25
+Pc338,5.1,San Diego,CA,USA,2,South,25
+Pc338,5.21,San Diego,CA,USA,2,South,25
+P398,6.42,Santa Barbara,CA,USA,1,North,28
+P398,8.53,Santa Barbara,CA,USA,1,North,28
+P398,7.8,Santa Barbara,CA,USA,1,North,28
+P407,5.19,Santa Barbara,CA,USA,1,North,28
+P407,5.31,Santa Barbara,CA,USA,1,North,28
+P407,5.37,Santa Barbara,CA,USA,1,North,28
+P349,4.18,Santa Barbara,CA,USA,1,North,28
+P349,4.35,Santa Barbara,CA,USA,1,North,28
+P349,4.4,Santa Barbara,CA,USA,1,North,28
+P344,6.12,Santa Barbara,CA,USA,1,North,28
+P344,6.55,Santa Barbara,CA,USA,1,North,28
+P344,5.99,Santa Barbara,CA,USA,1,North,28
+P245,6.43,Ventura,CA,USA,1,North,28
+P245,5.43,Ventura,CA,USA,1,North,28
+P245,5.96,Ventura,CA,USA,1,North,28
+P340,5.21,San Diego,CA,USA,1,South,28
+P340,5.38,San Diego,CA,USA,1,South,28
+P340,5.33,San Diego,CA,USA,1,South,28
+P207,7.73,San Diego,CA,USA,1,South,28
+P207,7.86,San Diego,CA,USA,1,South,28
+P207,8.02,San Diego,CA,USA,1,South,28
+P420,5.22,Santa Barbara,CA,USA,1,North,28
+P420,6.57,Santa Barbara,CA,USA,1,North,28
+P420,6.6,Santa Barbara,CA,USA,1,North,28
+Nik4_2,4.91,San Diego,CA,USA,1,South,28
+Nik4_2,5.82,San Diego,CA,USA,1,South,28
+Nik4_2,5.75,San Diego,CA,USA,1,South,28
+Pc336,5.58,San Diego,CA,USA,1,South,28
+Pc336,5.62,San Diego,CA,USA,1,South,28
+Pc336,5.51,San Diego,CA,USA,1,South,28
+P163,5.72,Riverside,CA,USA,1,South,28
+P163,5.98,Riverside,CA,USA,1,South,28
+P163,5.95,Riverside,CA,USA,1,South,28
+P216,5.76,Riverside,CA,USA,1,South,28
+P216,5.77,Riverside,CA,USA,1,South,28
+P216,5.74,Riverside,CA,USA,1,South,28
+R_1,7.04,Orange,CA,USA,1,North,28
+R_1,6.56,Orange,CA,USA,1,North,28
+R_1,7.13,Orange,CA,USA,1,North,28
+P14009,5.44,Ventura,CA,USA,1,North,28
+P14009,5.32,Ventura,CA,USA,1,North,28
+P14009,5.7,Ventura,CA,USA,1,North,28
+Pc2114,6.24,Ventura,CA,USA,1,North,28
+Pc2114,7.79,Ventura,CA,USA,1,North,28
+Pc2114,6.32,Ventura,CA,USA,1,North,28
+St5b,4.85,San Diego,CA,USA,1,South,28
+St5b,4.68,San Diego,CA,USA,1,South,28
+St5b,4.59,San Diego,CA,USA,1,South,28
+Pc2120,5.44,Riverside,CA,USA,1,South,28
+Pc2120,5.49,Riverside,CA,USA,1,South,28
+Pc2120,5.78,Riverside,CA,USA,1,South,28
+B9,5.36,Santa Barbara,CA,USA,1,North,28
+B9,5.29,Santa Barbara,CA,USA,1,North,28
+B9,5.13,Santa Barbara,CA,USA,1,North,28
+Pc2113,5.4,Santa Barbara,CA,USA,1,North,28
+Pc2113,5.38,Santa Barbara,CA,USA,1,North,28
+Pc2113,5.33,Santa Barbara,CA,USA,1,North,28
+Pc2109,4.87,San Diego,CA,USA,1,South,28
+Pc2109,4.43,San Diego,CA,USA,1,South,28
+Pc2109,4.62,San Diego,CA,USA,1,South,28
+St6a,4.54,San Diego,CA,USA,1,South,28
+St6a,4.43,San Diego,CA,USA,1,South,28
+St6a,4.75,San Diego,CA,USA,1,South,28
+Pc2110,5.76,Ventura,CA,USA,1,North,28
+Pc2110,4.37,Ventura,CA,USA,1,North,28
+Pc2110,5.61,Ventura,CA,USA,1,North,28
+Van3,5.76,Ventura,CA,USA,1,North,28
+Van3,5.19,Ventura,CA,USA,1,North,28
+Van3,5.66,Ventura,CA,USA,1,North,28
+P2115,7.95,Ventura,CA,USA,1,North,28
+P2115,8.07,Ventura,CA,USA,1,North,28
+P2115,6.87,Ventura,CA,USA,1,North,28
+Pc2117,4.6,San Diego,CA,USA,1,South,28
+Pc2117,4.43,San Diego,CA,USA,1,South,28
+Pc2117,4.55,San Diego,CA,USA,1,South,28
+P352,5.87,San Diego,CA,USA,1,South,28
+P352,6.15,San Diego,CA,USA,1,South,28
+P352,6.39,San Diego,CA,USA,1,South,28
+P438,5.43,Santa Barbara,CA,USA,1,North,28
+P438,4.78,Santa Barbara,CA,USA,1,North,28
+P438,4.94,Santa Barbara,CA,USA,1,North,28
+P439,5.34,Santa Barbara,CA,USA,1,North,28
+P439,5.62,Santa Barbara,CA,USA,1,North,28
+P439,5.34,Santa Barbara,CA,USA,1,North,28
+L2_1,6.67,Ventura,CA,USA,1,North,28
+L2_1,6.71,Ventura,CA,USA,1,North,28
+L2_1,5.89,Ventura,CA,USA,1,North,28
+P367,4.47,Ventura,CA,USA,1,North,28
+P367,4.87,Ventura,CA,USA,1,North,28
+P367,4.65,Ventura,CA,USA,1,North,28
+P448,6.47,Ventura,CA,USA,1,North,28
+P448,6,Ventura,CA,USA,1,North,28
+P448,6.24,Ventura,CA,USA,1,North,28
+P454,5.72,Ventura,CA,USA,1,North,28
+P454,5.7,Ventura,CA,USA,1,North,28
+P454,5.67,Ventura,CA,USA,1,North,28
+P425,4.86,Ventura,CA,USA,1,North,28
+P425,4.87,Ventura,CA,USA,1,North,28
+P425,4.78,Ventura,CA,USA,1,North,28
+P426,6.01,Ventura,CA,USA,1,North,28
+P426,5.69,Ventura,CA,USA,1,North,28
+P426,6.27,Ventura,CA,USA,1,North,28
+P429,5.68,Ventura,CA,USA,1,North,28
+P429,6.17,Ventura,CA,USA,1,North,28
+P429,6.19,Ventura,CA,USA,1,North,28
+P322,6.16,Ventura,CA,USA,1,North,28
+P322,5.66,Ventura,CA,USA,1,North,28
+P322,5.96,Ventura,CA,USA,1,North,28
+P381,8.02,San Diego,CA,USA,1,South,28
+P381,7.09,San Diego,CA,USA,1,South,28
+P381,8.28,San Diego,CA,USA,1,South,28
+P508,4.78,San Diego,CA,USA,1,South,28
+P508,5.32,San Diego,CA,USA,1,South,28
+P508,5.1,San Diego,CA,USA,1,South,28
+P514,5.9,San Diego,CA,USA,1,South,28
+P514,6.2,San Diego,CA,USA,1,South,28
+P514,6.14,San Diego,CA,USA,1,South,28
+P520,5.91,San Diego,CA,USA,1,South,28
+P520,5.27,San Diego,CA,USA,1,South,28
+P520,5.07,San Diego,CA,USA,1,South,28
+P461,5.51,San Diego,CA,USA,1,South,28
+P461,5.86,San Diego,CA,USA,1,South,28
+P461,4.76,San Diego,CA,USA,1,South,28
+P467,4.67,San Diego,CA,USA,1,South,28
+P467,5.26,San Diego,CA,USA,1,South,28
+P467,5.35,San Diego,CA,USA,1,South,28
+P473,5.33,San Diego,CA,USA,1,South,28
+P473,5.88,San Diego,CA,USA,1,South,28
+P473,5.48,San Diego,CA,USA,1,South,28
+P482,6.27,San Diego,CA,USA,1,South,28
+P482,6.65,San Diego,CA,USA,1,South,28
+P482,6.35,San Diego,CA,USA,1,South,28
+P483,9.44,San Diego,CA,USA,1,South,28
+P483,8.58,San Diego,CA,USA,1,South,28
+P483,8.89,San Diego,CA,USA,1,South,28
+P356,5.3,Riverside,CA,USA,1,South,28
+P356,5.42,Riverside,CA,USA,1,South,28
+P356,5.42,Riverside,CA,USA,1,South,28
+P360,5.73,Riverside,CA,USA,1,South,28
+P360,5.75,Riverside,CA,USA,1,South,28
+P360,5.53,Riverside,CA,USA,1,South,28
+B4,4.87,Santa Barbara,CA,USA,1,North,28
+B4,4.53,Santa Barbara,CA,USA,1,North,28
+B4,5.24,Santa Barbara,CA,USA,1,North,28
+P532,5.18,Riverside,CA,USA,1,South,28
+P532,5.19,Riverside,CA,USA,1,South,28
+P532,5.38,Riverside,CA,USA,1,South,28
+P553,5.67,Riverside,CA,USA,1,South,28
+P553,5.17,Riverside,CA,USA,1,South,28
+P553,5.2,Riverside,CA,USA,1,South,28
+OH3,4.49,Riverside,CA,USA,1,South,28
+OH3,5.12,Riverside,CA,USA,1,South,28
+OH3,5.26,Riverside,CA,USA,1,South,28
+OH3a,8.16,Riverside,CA,USA,1,South,28
+OH3a,8.29,Riverside,CA,USA,1,South,28
+OH3a,7.99,Riverside,CA,USA,1,South,28
+OH4,7.75,Riverside,CA,USA,1,South,28
+OH4,7.8,Riverside,CA,USA,1,South,28
+OH4,7.77,Riverside,CA,USA,1,South,28
+S2_1,5.67,Orange,CA,USA,1,North,28
+S2_1,6.97,Orange,CA,USA,1,North,28
+S2_1,5.45,Orange,CA,USA,1,North,28
+W3_1,5.61,Orange,CA,USA,1,North,28
+W3_1,4.96,Orange,CA,USA,1,North,28
+W3_1,5.45,Orange,CA,USA,1,North,28
+M403,5.64,Riverside,CA,USA,1,South,28
+M403,5.68,Riverside,CA,USA,1,South,28
+M403,5.32,Riverside,CA,USA,1,South,28
+M399,4.64,San Diego,CA,USA,1,South,28
+M399,4.7,San Diego,CA,USA,1,South,28
+M399,4.72,San Diego,CA,USA,1,South,28
+M398,4.48,San Diego,CA,USA,1,South,28
+M398,4.44,San Diego,CA,USA,1,South,28
+M398,4.96,San Diego,CA,USA,1,South,28
+M405,8.15,San Diego,CA,USA,1,South,28
+M405,7.46,San Diego,CA,USA,1,South,28
+M405,7.39,San Diego,CA,USA,1,South,28
+L14,6.49,Ventura,CA,USA,1,North,28
+L14,6.22,Ventura,CA,USA,1,North,28
+L14,4.88,Ventura,CA,USA,1,North,28
+P442,4.99,Ventura,CA,USA,1,North,28
+P442,5.7,Ventura,CA,USA,1,North,28
+P442,5.05,Ventura,CA,USA,1,North,28
+P444,5.54,Ventura,CA,USA,1,North,28
+P444,6.32,Ventura,CA,USA,1,North,28
+P444,5.74,Ventura,CA,USA,1,North,28
+P446,5.43,Ventura,CA,USA,1,North,28
+P446,6.07,Ventura,CA,USA,1,North,28
+P446,5.65,Ventura,CA,USA,1,North,28
+P485,2.65,San Diego,CA,USA,1,South,28
+P485,3.75,San Diego,CA,USA,1,South,28
+P485,6.35,San Diego,CA,USA,1,South,28
+P398,8.82,Santa Barbara,CA,USA,2,North,28
+P398,8.67,Santa Barbara,CA,USA,2,North,28
+P398,8.64,Santa Barbara,CA,USA,2,North,28
+P407,6.56,Santa Barbara,CA,USA,2,North,28
+P407,6.41,Santa Barbara,CA,USA,2,North,28
+P407,6.55,Santa Barbara,CA,USA,2,North,28
+P349,5.56,Santa Barbara,CA,USA,2,North,28
+P349,5.36,Santa Barbara,CA,USA,2,North,28
+P349,5.26,Santa Barbara,CA,USA,2,North,28
+P344,7.67,Santa Barbara,CA,USA,2,North,28
+P344,8.02,Santa Barbara,CA,USA,2,North,28
+P344,7.51,Santa Barbara,CA,USA,2,North,28
+P245,5.57,Ventura,CA,USA,2,North,28
+P245,6.09,Ventura,CA,USA,2,North,28
+P245,5.67,Ventura,CA,USA,2,North,28
+P207,7.73,San Diego,CA,USA,2,South,28
+P207,7.8,San Diego,CA,USA,2,South,28
+P207,8.06,San Diego,CA,USA,2,South,28
+P340,5.67,San Diego,CA,USA,2,South,28
+P340,5.36,San Diego,CA,USA,2,South,28
+P340,5.43,San Diego,CA,USA,2,South,28
+Nik4_2,6.09,San Diego,CA,USA,2,South,28
+Nik4_2,6.14,San Diego,CA,USA,2,South,28
+Nik4_2,6.39,San Diego,CA,USA,2,South,28
+P420,6.35,Santa Barbara,CA,USA,2,North,28
+P420,6,Santa Barbara,CA,USA,2,North,28
+P420,6.22,Santa Barbara,CA,USA,2,North,28
+Pc336,5.66,San Diego,CA,USA,2,South,28
+Pc336,5.35,San Diego,CA,USA,2,South,28
+Pc336,5.42,San Diego,CA,USA,2,South,28
+P163,6.29,Riverside,CA,USA,2,South,28
+P163,6.38,Riverside,CA,USA,2,South,28
+P163,6.89,Riverside,CA,USA,2,South,28
+P216,6.64,Riverside,CA,USA,2,South,28
+P216,6.57,Riverside,CA,USA,2,South,28
+P216,6.15,Riverside,CA,USA,2,South,28
+R_1,7.5,Orange,CA,USA,2,North,28
+R_1,7.09,Orange,CA,USA,2,North,28
+R_1,7.81,Orange,CA,USA,2,North,28
+P14009,5.95,Ventura,CA,USA,2,North,28
+P14009,5.19,Ventura,CA,USA,2,North,28
+P14009,5.76,Ventura,CA,USA,2,North,28
+Pc2113,5.48,Santa Barbara,CA,USA,2,North,28
+Pc2113,5.67,Santa Barbara,CA,USA,2,North,28
+Pc2113,6.13,Santa Barbara,CA,USA,2,North,28
+Pc2114,6.09,Ventura,CA,USA,2,North,28
+Pc2114,7.96,Ventura,CA,USA,2,North,28
+Pc2114,6.28,Ventura,CA,USA,2,North,28
+St5b,5.25,San Diego,CA,USA,2,South,28
+St5b,4.89,San Diego,CA,USA,2,South,28
+St5b,5.63,San Diego,CA,USA,2,South,28
+Pc2120,5.92,Riverside,CA,USA,2,South,28
+Pc2120,5.88,Riverside,CA,USA,2,South,28
+Pc2120,5.89,Riverside,CA,USA,2,South,28
+B9,5.87,Santa Barbara,CA,USA,2,North,28
+B9,4.98,Santa Barbara,CA,USA,2,North,28
+B9,5.38,Santa Barbara,CA,USA,2,North,28
+P367,5.28,Ventura,CA,USA,2,North,28
+P367,5.48,Ventura,CA,USA,2,North,28
+P367,5.28,Ventura,CA,USA,2,North,28
+P448,5.77,Ventura,CA,USA,2,North,28
+P448,5.7,Ventura,CA,USA,2,North,28
+P448,5.97,Ventura,CA,USA,2,North,28
+P454,6.2,Ventura,CA,USA,2,North,28
+P454,5.67,Ventura,CA,USA,2,North,28
+P454,5.64,Ventura,CA,USA,2,North,28
+P425,4.13,Ventura,CA,USA,2,North,28
+P425,4.02,Ventura,CA,USA,2,North,28
+P425,4.23,Ventura,CA,USA,2,North,28
+P426,5.69,Ventura,CA,USA,2,North,28
+P426,6.03,Ventura,CA,USA,2,North,28
+P426,6.26,Ventura,CA,USA,2,North,28
+P429,6.13,Ventura,CA,USA,2,North,28
+P429,5.97,Ventura,CA,USA,2,North,28
+P429,6.25,Ventura,CA,USA,2,North,28
+P322,6.26,Ventura,CA,USA,2,North,28
+P322,6.21,Ventura,CA,USA,2,North,28
+P322,6.07,Ventura,CA,USA,2,North,28
+P381,8.65,San Diego,CA,USA,2,South,28
+P381,8.17,San Diego,CA,USA,2,South,28
+P381,8.29,San Diego,CA,USA,2,South,28
+P508,5.19,San Diego,CA,USA,2,South,28
+P508,5.11,San Diego,CA,USA,2,South,28
+P508,5.1,San Diego,CA,USA,2,South,28
+P514,6.36,San Diego,CA,USA,2,South,28
+P514,6.36,San Diego,CA,USA,2,South,28
+P514,5.58,San Diego,CA,USA,2,South,28
+Pc2110,5.75,Ventura,CA,USA,2,North,28
+Pc2110,5.12,Ventura,CA,USA,2,North,28
+Pc2110,4.43,Ventura,CA,USA,2,North,28
+Pc2109,4.65,San Diego,CA,USA,2,South,28
+Pc2109,4.74,San Diego,CA,USA,2,South,28
+Pc2109,4.3,San Diego,CA,USA,2,South,28
+St6a,4.26,San Diego,CA,USA,2,South,28
+St6a,4.67,San Diego,CA,USA,2,South,28
+St6a,4.89,San Diego,CA,USA,2,South,28
+Van3,5.22,Ventura,CA,USA,2,North,28
+Van3,5.3,Ventura,CA,USA,2,North,28
+Van3,5.26,Ventura,CA,USA,2,North,28
+P2115,6.66,Ventura,CA,USA,2,North,28
+P2115,6.86,Ventura,CA,USA,2,North,28
+P2115,7.15,Ventura,CA,USA,2,North,28
+Pc2117,4.66,San Diego,CA,USA,2,South,28
+Pc2117,4.63,San Diego,CA,USA,2,South,28
+Pc2117,4.91,San Diego,CA,USA,2,South,28
+P352,5.81,San Diego,CA,USA,2,South,28
+P352,5.81,San Diego,CA,USA,2,South,28
+P352,5.76,San Diego,CA,USA,2,South,28
+P438,5.29,Santa Barbara,CA,USA,2,North,28
+P438,5.94,Santa Barbara,CA,USA,2,North,28
+P438,5.21,Santa Barbara,CA,USA,2,North,28
+P439,5.75,Santa Barbara,CA,USA,2,North,28
+P439,5.21,Santa Barbara,CA,USA,2,North,28
+P439,5.16,Santa Barbara,CA,USA,2,North,28
+L2_1,6.7,Ventura,CA,USA,2,North,28
+L2_1,6.1,Ventura,CA,USA,2,North,28
+L2_1,6.22,Ventura,CA,USA,2,North,28
+P520,6.04,San Diego,CA,USA,2,South,28
+P520,6.12,San Diego,CA,USA,2,South,28
+P520,5.87,San Diego,CA,USA,2,South,28
+P461,5.94,San Diego,CA,USA,2,South,28
+P461,5.99,San Diego,CA,USA,2,South,28
+P461,6.03,San Diego,CA,USA,2,South,28
+P467,5.73,San Diego,CA,USA,2,South,28
+P467,5.4,San Diego,CA,USA,2,South,28
+P467,5.26,San Diego,CA,USA,2,South,28
+P473,6.25,San Diego,CA,USA,2,South,28
+P473,5.93,San Diego,CA,USA,2,South,28
+P473,6.07,San Diego,CA,USA,2,South,28
+P482,6.03,San Diego,CA,USA,2,South,28
+P482,5.9,San Diego,CA,USA,2,South,28
+P482,6.63,San Diego,CA,USA,2,South,28
+P483,9.14,San Diego,CA,USA,2,South,28
+P483,9.17,San Diego,CA,USA,2,South,28
+P483,9.33,San Diego,CA,USA,2,South,28
+P485,4.09,San Diego,CA,USA,2,South,28
+P485,4.14,San Diego,CA,USA,2,South,28
+P485,4.41,San Diego,CA,USA,2,South,28
+P356,5.83,Riverside,CA,USA,2,South,28
+P356,5.5,Riverside,CA,USA,2,South,28
+P356,5.91,Riverside,CA,USA,2,South,28
+P360,5.98,Riverside,CA,USA,2,South,28
+P360,5.86,Riverside,CA,USA,2,South,28
+P360,5.86,Riverside,CA,USA,2,South,28
+B4,4.08,Santa Barbara,CA,USA,2,North,28
+B4,4.47,Santa Barbara,CA,USA,2,North,28
+B4,4.97,Santa Barbara,CA,USA,2,North,28
+P532,5.83,Riverside,CA,USA,2,South,28
+P532,5.59,Riverside,CA,USA,2,South,28
+P532,5.59,Riverside,CA,USA,2,South,28
+P553,5.27,Riverside,CA,USA,2,South,28
+P553,5.24,Riverside,CA,USA,2,South,28
+P553,5.43,Riverside,CA,USA,2,South,28
+OH3,5.83,Riverside,CA,USA,2,South,28
+OH3,5.77,Riverside,CA,USA,2,South,28
+OH3,5.63,Riverside,CA,USA,2,South,28
+OH3a,7.9,Riverside,CA,USA,2,South,28
+OH3a,9.45,Riverside,CA,USA,2,South,28
+OH3a,9.34,Riverside,CA,USA,2,South,28
+OH4,8.13,Riverside,CA,USA,2,South,28
+OH4,9,Riverside,CA,USA,2,South,28
+OH4,7.89,Riverside,CA,USA,2,South,28
+S2_1,4.98,Orange,CA,USA,2,North,28
+S2_1,5.56,Orange,CA,USA,2,North,28
+S2_1,6.84,Orange,CA,USA,2,North,28
+W3_1,5.96,Orange,CA,USA,2,North,28
+W3_1,5.91,Orange,CA,USA,2,North,28
+W3_1,5.9,Orange,CA,USA,2,North,28
+M403,5.84,Riverside,CA,USA,2,South,28
+M403,5.78,Riverside,CA,USA,2,South,28
+M403,5.91,Riverside,CA,USA,2,South,28
+M399,5.26,San Diego,CA,USA,2,South,28
+M399,5.37,San Diego,CA,USA,2,South,28
+M399,5.42,San Diego,CA,USA,2,South,28
+M398,4.85,San Diego,CA,USA,2,South,28
+M398,4.45,San Diego,CA,USA,2,South,28
+M398,4.85,San Diego,CA,USA,2,South,28
+M405,7.59,San Diego,CA,USA,2,South,28
+M405,7.39,San Diego,CA,USA,2,South,28
+M405,7.91,San Diego,CA,USA,2,South,28
+L14,5.52,Ventura,CA,USA,2,North,28
+L14,5.37,Ventura,CA,USA,2,North,28
+L14,5.23,Ventura,CA,USA,2,North,28
+P442,6.43,Ventura,CA,USA,2,North,28
+P442,5.99,Ventura,CA,USA,2,North,28
+P442,6.2,Ventura,CA,USA,2,North,28
+P444,6.43,Ventura,CA,USA,2,North,28
+P444,6.64,Ventura,CA,USA,2,North,28
+P444,6.56,Ventura,CA,USA,2,North,28
+P446,6.56,Ventura,CA,USA,2,North,28
+P446,6.73,Ventura,CA,USA,2,North,28
+P446,6.49,Ventura,CA,USA,2,North,28
+ZITR2_5,6.33,Zitacuaro,MC,MEXICO,1,NA,28
+ZITR2_5,6.18,Zitacuaro,MC,MEXICO,1,NA,28
+ZITR2_5,5.92,Zitacuaro,MC,MEXICO,1,NA,28
+ZCA5_3,5.64,Ziracuaretiro,MC,MEXICO,1,NA,28
+ZCA5_3,5.6,Ziracuaretiro,MC,MEXICO,1,NA,28
+ZCA5_3,5.7,Ziracuaretiro,MC,MEXICO,1,NA,28
+ZITR2_5,6.41,Zitacuaro,MC,MEXICO,2,NA,28
+ZITR2_5,6.66,Zitacuaro,MC,MEXICO,2,NA,28
+ZITR2_5,6.07,Zitacuaro,MC,MEXICO,2,NA,28
+ZCA5_3,6.76,Ziracuaretiro,MC,MEXICO,2,NA,28
+ZCA5_3,7.48,Ziracuaretiro,MC,MEXICO,2,NA,28
+ZCA5_3,6.46,Ziracuaretiro,MC,MEXICO,2,NA,28
+M401,5.15,San Diego,CA,USA,2,South,28
+M401,5.48,San Diego,CA,USA,2,South,28
+M401,5.2,San Diego,CA,USA,2,South,28
+M395,6.42,San Diego,CA,USA,2,South,28
+M395,6.44,San Diego,CA,USA,2,South,28
+M395,6.37,San Diego,CA,USA,2,South,28
+M397,4.02,San Diego,CA,USA,2,South,28
+M397,4.24,San Diego,CA,USA,2,South,28
+M397,4.31,San Diego,CA,USA,2,South,28
+M400,5.47,San Diego,CA,USA,2,South,28
+M400,5.48,San Diego,CA,USA,2,South,28
+M400,5.75,San Diego,CA,USA,2,South,28
+M402,7.84,Ventura,CA,USA,2,North,28
+M402,7.72,Ventura,CA,USA,2,North,28
+M402,7.96,Ventura,CA,USA,2,North,28
+M404,5.63,Riverside,CA,USA,2,South,28
+M404,5.75,Riverside,CA,USA,2,South,28
+M404,5.62,Riverside,CA,USA,2,South,28
+M293,7.28,Ventura,CA,USA,2,North,28
+M293,7.73,Ventura,CA,USA,2,North,28
+M293,8.19,Ventura,CA,USA,2,North,28
+M393,5.37,Unknown,Unknown,Unknown,2,NA,28
+M393,5.5,Unknown,Unknown,Unknown,2,NA,28
+M393,5.86,Unknown,Unknown,Unknown,2,NA,28
+M394,6.07,Unknown,Unknown,Unknown,2,NA,28
+M394,6.09,Unknown,Unknown,Unknown,2,NA,28
+M394,6.29,Unknown,Unknown,Unknown,2,NA,28
+P6377,5.47,Unknown,Unknown,Taiwan,2,NA,28
+P6377,5.25,Unknown,Unknown,Taiwan,2,NA,28
+P6377,5.2,Unknown,Unknown,Taiwan,2,NA,28
+P6339,6.23,Unknown,Unknown,Papua New Guinea,2,NA,28
+P6339,6.31,Unknown,Unknown,Papua New Guinea,2,NA,28
+P6339,6.3,Unknown,Unknown,Papua New Guinea,2,NA,28
+M401,4.71,San Diego,CA,USA,1,South,28
+M401,5.03,San Diego,CA,USA,1,South,28
+M401,5.1,San Diego,CA,USA,1,South,28
+M395,6.24,San Diego,CA,USA,1,South,28
+M395,6.24,San Diego,CA,USA,1,South,28
+M395,5.93,San Diego,CA,USA,1,South,28
+M397,4.64,San Diego,CA,USA,1,South,28
+M397,4.94,San Diego,CA,USA,1,South,28
+M397,5.35,San Diego,CA,USA,1,South,28
+M400,6.06,San Diego,CA,USA,1,South,28
+M400,5.76,San Diego,CA,USA,1,South,28
+M400,5.89,San Diego,CA,USA,1,South,28
+M402,7.78,Ventura,CA,USA,1,North,28
+M402,7.41,Ventura,CA,USA,1,North,28
+M402,7.75,Ventura,CA,USA,1,North,28
+M404,5.84,Riverside,CA,USA,1,South,28
+M404,5.67,Riverside,CA,USA,1,South,28
+M404,5.62,Riverside,CA,USA,1,South,28
+M293,7.62,Ventura,CA,USA,1,North,28
+M293,7.16,Ventura,CA,USA,1,North,28
+M293,7.92,Ventura,CA,USA,1,North,28
+M393,5.98,Unknown,Unknown,Unknown,1,NA,28
+M393,6,Unknown,Unknown,Unknown,1,NA,28
+M393,6.24,Unknown,Unknown,Unknown,1,NA,28
+M394,5.8,Unknown,Unknown,Unknown,1,NA,28
+M394,5.44,Unknown,Unknown,Unknown,1,NA,28
+M394,5.33,Unknown,Unknown,Unknown,1,NA,28
+P6377,5.65,Unknown,Unknown,Taiwan,1,NA,28
+P6377,5.07,Unknown,Unknown,Taiwan,1,NA,28
+P6377,5.25,Unknown,Unknown,Taiwan,1,NA,28
+P6339,6.04,Unknown,Unknown,Papua New Guinea,1,NA,28
+P6339,6.8,Unknown,Unknown,Papua New Guinea,1,NA,28
+P6339,5.46,Unknown,Unknown,Papua New Guinea,1,NA,28
+P3658,6.77,Unknown,Unknown,Papua New Guinea,2,NA,28
+P3658,7.29,Unknown,Unknown,Papua New Guinea,2,NA,28
+P3658,7.38,Unknown,Unknown,Papua New Guinea,2,NA,28
+P6379,5.7,Unknown,Unknown,Taiwan,2,NA,28
+P6379,5.64,Unknown,Unknown,Taiwan,2,NA,28
+P6379,5.64,Unknown,Unknown,Taiwan,2,NA,28
+MW4_1,5.59,San Diego,CA,USA,2,South,28
+MW4_1,5.55,San Diego,CA,USA,2,South,28
+MW4_1,5.56,San Diego,CA,USA,2,South,28
+ME9_1,4.8,San Diego,CA,USA,2,South,28
+ME9_1,5.16,San Diego,CA,USA,2,South,28
+ME9_1,5.11,San Diego,CA,USA,2,South,28
+ME1_1,5.85,San Diego,CA,USA,2,South,28
+ME1_1,5.78,San Diego,CA,USA,2,South,28
+ME1_1,5.84,San Diego,CA,USA,2,South,28
+OH5,6.32,Riverside,CA,USA,2,South,28
+OH5,6.27,Riverside,CA,USA,2,South,28
+OH5,6.27,Riverside,CA,USA,2,South,28
+345,5.47,Ventura,CA,USA,2,North,28
+345,5.28,Ventura,CA,USA,2,North,28
+345,5.6,Ventura,CA,USA,2,North,28
+M253,8.23,San Diego,CA,USA,2,South,28
+M253,7.95,San Diego,CA,USA,2,South,28
+M253,8.18,San Diego,CA,USA,2,South,28
+CBS14422,9.33,Unknown,Unknown,Indonesia,2,NA,28
+CBS14422,8.43,Unknown,Unknown,Indonesia,2,NA,28
+CBS14422,7.66,Unknown,Unknown,Indonesia,2,NA,28
+P3658,6.76,Unknown,Unknown,Papua New Guinea,1,NA,28
+P3658,6.91,Unknown,Unknown,Papua New Guinea,1,NA,28
+P3658,6.7,Unknown,Unknown,Papua New Guinea,1,NA,28
+P6379,5.58,Unknown,Unknown,Taiwan,1,NA,28
+P6379,5.39,Unknown,Unknown,Taiwan,1,NA,28
+P6379,5.43,Unknown,Unknown,Taiwan,1,NA,28
+MW4_1,6.03,San Diego,CA,USA,1,South,28
+MW4_1,6.34,San Diego,CA,USA,1,South,28
+MW4_1,5.96,San Diego,CA,USA,1,South,28
+ME9_1,5.34,San Diego,CA,USA,1,South,28
+ME9_1,5.31,San Diego,CA,USA,1,South,28
+ME9_1,4.76,San Diego,CA,USA,1,South,28
+ME1_1,5.39,San Diego,CA,USA,1,South,28
+ME1_1,5.63,San Diego,CA,USA,1,South,28
+ME1_1,5.76,San Diego,CA,USA,1,South,28
+OH5,6.55,Riverside,CA,USA,1,South,28
+OH5,6.18,Riverside,CA,USA,1,South,28
+OH5,6.92,Riverside,CA,USA,1,South,28
+345,5.5,Ventura,CA,USA,1,North,28
+345,5.48,Ventura,CA,USA,1,North,28
+345,5.84,Ventura,CA,USA,1,North,28
+M253,7.28,San Diego,CA,USA,1,South,28
+M253,7.04,San Diego,CA,USA,1,South,28
+M253,7.89,San Diego,CA,USA,1,South,28
+CBS14422,7.88,Unknown,Unknown,Indonesia,1,NA,28
+CBS14422,7.91,Unknown,Unknown,Indonesia,1,NA,28
+CBS14422,7.91,Unknown,Unknown,Indonesia,1,NA,28
+UPNS4_1,5.89,Uruapan,MC,MEXICO,1,NA,28
+UPNS4_1,5.88,Uruapan,MC,MEXICO,1,NA,28
+UPNS4_1,5.62,Uruapan,MC,MEXICO,1,NA,28
+TGR3_5,6.31,Tinguind’n,MC,MEXICO,1,NA,28
+TGR3_5,6.26,Tinguind’n,MC,MEXICO,1,NA,28
+TGR3_5,6.36,Tinguind’n,MC,MEXICO,1,NA,28
+TANS5_22,5.59,Tanc’taro,MC,MEXICO,1,NA,28
+TANS5_22,6.09,Tanc’taro,MC,MEXICO,1,NA,28
+TANS5_22,5.66,Tanc’taro,MC,MEXICO,1,NA,28
+ARR2_2,5.33,Ario de Rosales,MC,MEXICO,1,NA,28
+ARR2_2,5.57,Ario de Rosales,MC,MEXICO,1,NA,28
+ARR2_2,5.54,Ario de Rosales,MC,MEXICO,1,NA,28
+SER5_6,5.17,Salvador Escalante,MC,MEXICO,1,NA,28
+SER5_6,5.04,Salvador Escalante,MC,MEXICO,1,NA,28
+SER5_6,5.21,Salvador Escalante,MC,MEXICO,1,NA,28
+PRS4_18,5.69,Perib‡n,MC,MEXICO,1,NA,28
+PRS4_18,5.42,Perib‡n,MC,MEXICO,1,NA,28
+PRS4_18,6.29,Perib‡n,MC,MEXICO,1,NA,28
+SJNR6_22,5.79,San Juan Nuevo ,MC,MEXICO,1,NA,28
+SJNR6_22,5.51,San Juan Nuevo ,MC,MEXICO,1,NA,28
+SJNR6_22,5.9,San Juan Nuevo ,MC,MEXICO,1,NA,28
+UPNS4_1,5.59,Uruapan,MC,MEXICO,2,NA,28
+UPNS4_1,5.45,Uruapan,MC,MEXICO,2,NA,28
+UPNS4_1,5.24,Uruapan,MC,MEXICO,2,NA,28
+TGR3_5,5.93,Tinguind’n,MC,MEXICO,2,NA,28
+TGR3_5,6.38,Tinguind’n,MC,MEXICO,2,NA,28
+TGR3_5,6.32,Tinguind’n,MC,MEXICO,2,NA,28
+TANS5_22,5.56,Tanc’taro,MC,MEXICO,2,NA,28
+TANS5_22,5.79,Tanc’taro,MC,MEXICO,2,NA,28
+TANS5_22,5.72,Tanc’taro,MC,MEXICO,2,NA,28
+ARR2_2,5.83,Ario de Rosales,MC,MEXICO,2,NA,28
+ARR2_2,5.92,Ario de Rosales,MC,MEXICO,2,NA,28
+ARR2_2,6.62,Ario de Rosales,MC,MEXICO,2,NA,28
+SER5_6,6.16,Salvador Escalante,MC,MEXICO,2,NA,28
+SER5_6,5.8,Salvador Escalante,MC,MEXICO,2,NA,28
+SER5_6,6.41,Salvador Escalante,MC,MEXICO,2,NA,28
+PRS4_18,6.42,Perib‡n,MC,MEXICO,2,NA,28
+PRS4_18,6.13,Perib‡n,MC,MEXICO,2,NA,28
+PRS4_18,6.21,Perib‡n,MC,MEXICO,2,NA,28
+SJNR6_22,5.83,San Juan Nuevo ,MC,MEXICO,2,NA,28
+SJNR6_22,5.16,San Juan Nuevo ,MC,MEXICO,2,NA,28
+SJNR6_22,4.98,San Juan Nuevo ,MC,MEXICO,2,NA,28
+Pc5241,6.74,San Diego,CA,USA,1,South,28
+Pc5241,7.09,San Diego,CA,USA,1,South,28
+Pc5241,6.72,San Diego,CA,USA,1,South,28
+Pc338,5.11,San Diego,CA,USA,1,South,28
+Pc338,5.32,San Diego,CA,USA,1,South,28
+Pc338,5.57,San Diego,CA,USA,1,South,28
+Pc338,5.16,San Diego,CA,USA,2,South,28
+Pc338,5.49,San Diego,CA,USA,2,South,28
+Pc338,4.98,San Diego,CA,USA,2,South,28
+Pc5241,6.54,San Diego,CA,USA,2,South,22
+Pc5241,6.19,San Diego,CA,USA,2,South,22
+Pc5241,7.3,San Diego,CA,USA,2,South,22
+Pc5241,6.39,San Diego,CA,USA,2,South,25
+Pc5241,6.3,San Diego,CA,USA,2,South,25
+Pc5241,6.36,San Diego,CA,USA,2,South,25
+Pc5241,6.15,San Diego,CA,USA,2,South,28
+Pc5241,5.84,San Diego,CA,USA,2,South,28
+Pc5241,5.57,San Diego,CA,USA,2,South,28
+UPNR1_1,5.03,Uruapan,MC,MEXICO,1,NA,22
+UPNR1_1,2.59,Uruapan,MC,MEXICO,1,NA,22
+UPNR1_1,5.07,Uruapan,MC,MEXICO,1,NA,22
+UPNR1_1,5.54,Uruapan,MC,MEXICO,1,NA,25
+UPNR1_1,5.47,Uruapan,MC,MEXICO,1,NA,25
+UPNR1_1,5.22,Uruapan,MC,MEXICO,1,NA,25
+UPNR1_1,4.72,Uruapan,MC,MEXICO,1,NA,28
+UPNR1_1,4.79,Uruapan,MC,MEXICO,1,NA,28
+UPNR1_1,5.68,Uruapan,MC,MEXICO,1,NA,28
+UPNR1_1,6.08,Uruapan,MC,MEXICO,2,NA,22
+UPNR1_1,5.8,Uruapan,MC,MEXICO,2,NA,22
+UPNR1_1,6.06,Uruapan,MC,MEXICO,2,NA,22
+UPNR1_1,6.36,Uruapan,MC,MEXICO,2,NA,25
+UPNR1_1,5.11,Uruapan,MC,MEXICO,2,NA,25
+UPNR1_1,6.3,Uruapan,MC,MEXICO,2,NA,25
+UPNR1_1,6.35,Uruapan,MC,MEXICO,2,NA,28
+UPNR1_1,5.87,Uruapan,MC,MEXICO,2,NA,28
+UPNR1_1,5.21,Uruapan,MC,MEXICO,2,NA,28
+PRS1_1,8.17,Perib‡n,MC,MEXICO,1,NA,22
+PRS1_1,8.3,Perib‡n,MC,MEXICO,1,NA,22
+PRS1_1,8.1,Perib‡n,MC,MEXICO,1,NA,22
+PRS1_1,7.86,Perib‡n,MC,MEXICO,1,NA,25
+PRS1_1,7.86,Perib‡n,MC,MEXICO,1,NA,25
+PRS1_1,8.03,Perib‡n,MC,MEXICO,1,NA,25
+PRS1_1,5.59,Perib‡n,MC,MEXICO,1,NA,28
+PRS1_1,5.87,Perib‡n,MC,MEXICO,1,NA,28
+PRS1_1,5.66,Perib‡n,MC,MEXICO,1,NA,28
+PRS1_1,8.37,Perib‡n,MC,MEXICO,2,NA,22
+PRS1_1,8.69,Perib‡n,MC,MEXICO,2,NA,22
+PRS1_1,8.63,Perib‡n,MC,MEXICO,2,NA,22
+PRS1_1,8.21,Perib‡n,MC,MEXICO,2,NA,25
+PRS1_1,8.36,Perib‡n,MC,MEXICO,2,NA,25
+PRS1_1,8.39,Perib‡n,MC,MEXICO,2,NA,25
+PRS1_1,6.16,Perib‡n,MC,MEXICO,2,NA,28
+PRS1_1,5.81,Perib‡n,MC,MEXICO,2,NA,28
+PRS1_1,6.32,Perib‡n,MC,MEXICO,2,NA,28
+TANR3-5,7.86,Tanc’taro,MC,MEXICO,1,NA,22
+TANR3-5,8.19,Tanc’taro,MC,MEXICO,1,NA,22
+TANR3-5,8.04,Tanc’taro,MC,MEXICO,1,NA,22
+TANR3-5,8.33,Tanc’taro,MC,MEXICO,2,NA,22
+TANR3-5,8.2,Tanc’taro,MC,MEXICO,2,NA,22
+TANR3-5,8.13,Tanc’taro,MC,MEXICO,2,NA,22
+TANR3-5,8.47,Tanc’taro,MC,MEXICO,1,NA,25
+TANR3-5,8.52,Tanc’taro,MC,MEXICO,1,NA,25
+TANR3-5,8.53,Tanc’taro,MC,MEXICO,1,NA,25
+TANR3-5,8.29,Tanc’taro,MC,MEXICO,2,NA,25
+TANR3-5,7.87,Tanc’taro,MC,MEXICO,2,NA,25
+TANR3-5,8.04,Tanc’taro,MC,MEXICO,2,NA,25
+TANR3-5,6.09,Tanc’taro,MC,MEXICO,1,NA,28
+TANR3-5,6.15,Tanc’taro,MC,MEXICO,1,NA,28
+TANR3-5,6.08,Tanc’taro,MC,MEXICO,1,NA,28
+TANR3-5,6.55,Tanc’taro,MC,MEXICO,2,NA,28
+TANR3-5,5.95,Tanc’taro,MC,MEXICO,2,NA,28
+TANR3-5,6.75,Tanc’taro,MC,MEXICO,2,NA,28
