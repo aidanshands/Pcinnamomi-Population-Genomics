@@ -1,7 +1,0 @@
-GENOMEFOLDER=genome
-REFGENOME=genome/Pc2113T1_genome.fasta
-GENOMENAME=Pc2113
-SAMPFILE=Isolate_Names.csv
-ALNFOLDER=Final_bams
-TEMP=/scratch_tmp
-GVCFFOLDER=gvcf
