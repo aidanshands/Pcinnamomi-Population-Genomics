@@ -7,7 +7,6 @@
 #SBATCH -c 32
 #SBATCH --time=12-00:00:00
 ##SBATCH --output=my.stdout
-#SBATCH --mail-user=ashan007@ucr.edu
 #SBATCH --mail-type=ALL
 #SBATCH --job-name="CombineVCFs"
 #SBATCH -p batch
