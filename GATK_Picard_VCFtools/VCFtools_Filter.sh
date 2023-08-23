@@ -21,7 +21,7 @@ module load vcftools/0.1.16-18
 #-------------------------------------------------------------------------------
 # Global settings
 # setting dirs
-wd=/bigdata/manosalvalab/pmanosal/Pc_PopGen_2022/variant_calling_diploid
+wd=variant_calling
 # setting variables and names
 vcf=Pc_only136.p2.f1SV.vcf.gz
 fil_wd=Light_Filtering
