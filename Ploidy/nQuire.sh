@@ -7,12 +7,10 @@
 #SBATCH -c 32
 #SBATCH --time=5-00:00:00
 ##SBATCH --output=my.stdout
-#SBATCH --mail-user=ashan007@ucr.edu
 #SBATCH --mail-type=ALL
 #SBATCH --job-name="nQuire"
 #SBATCH -p batch
 
-# wd = '/bigdata/manosalvalab/pmanosal/Pc_PopGen_2022/nQuire_Ploidy/Cov_Adj_nQuire'
 cd $SLURM_SUBMIT_DIR
 
 SAMPFILE=PcOnly.mosdepth_MeanCov_Rounded.csv
