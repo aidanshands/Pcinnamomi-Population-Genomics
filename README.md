@@ -45,9 +45,6 @@ Script: GATK_SelectVariants.sh
 
 Script: VCFtools_Filter.sh
 
-**SNPeff Annotation**
-
-Scripts: snpEff_pt1.sh, snpSift.sh & snpEff_pt2.sh
 
 ## Population Genomic Analyses
 
