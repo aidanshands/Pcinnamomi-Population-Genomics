@@ -5,7 +5,6 @@ library(agricolae)
 library(car)
 library(dplyr)
 #-------------------------------------------------------------------------------
-setwd("/Users/manosalvalab/Desktop/Aidan/Pc_PopGen_2022/PopGen_Scripts_Github/PotassiumPhosphite_Phenotyping")
 PPP_Data <- read.csv("PPEC50_Data.csv", header = T)
 
 Cols <- c("South" = "#7570B3", "North" = "#D95F02")
