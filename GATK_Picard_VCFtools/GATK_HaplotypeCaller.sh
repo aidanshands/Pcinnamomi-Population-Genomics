@@ -9,7 +9,6 @@
 #SBATCH --array=1-136
 #SBATCH -p batch
 # Load modules
-# working dir: /bigdata/manosalvalab/pmanosal/Pc_PopGen_2022/variant_calling
 module load picard
 module load java/17.0.2
 module load gatk/4.2.5.0
