@@ -360,20 +360,9 @@ CAsouthMLG0.01 = popsub(vcf_GL_OG_SC2_CC, exclude=c('Asia','CA-north', 'MX'))
 AsiaMLG0.01 = popsub(vcf_GL_OG_SC2_CC, exclude=c('CA-south','CA-north', 'MX'))
 
 #-------------------------------------------------------------------------------
-# Functions to perform IA, Basic Stats, & Pairwise GST (Hedrick's & Nei's)
+# Functions to perform Basic Stats, & Pairwise GST (Hedrick's & Nei's)
 #-------------------------------------------------------------------------------
 # These were all performed on the UCR HPCC because they take a long time. 
-
-# Calculate Index of Association (IA) with window size of 500 (Poppr)
-CalculateIA = function(GL){
-  name = deparse(substitute(GL))
-  print(paste0("Beginning analysis for ", name))
-  IA = win.ia(GL, window = 500, threads=0)
-  write.csv(IA, paste0("Pc136_583k.Ia_500win.",name,".csv"))
-  png(paste0("Pc136_583k.Ia_500win.",name, ".png"), width = 1200, height = 750)
-  hist(IA, breaks = "fd")
-  dev.off()
-}
 
 # Basic Stats (dartR/hierfstat)
 Basic_Stats = function(GL){
@@ -396,23 +385,6 @@ PW_Gst_CC = function(Gind){
   NeiGST_DF<-as.data.frame(as.matrix(NieGst))
   write.csv(NeiGST_DF,file = paste0("PW_NeiGst.",name,".csv"))
 }
-
-#-------------------------------------------------------------------------------
-#               Calculating the Index of Association (IA)
-#                                Table 2
-#-------------------------------------------------------------------------------
-# Uncorrected 
-CalculateIA(vcf_GL_OG)
-CalculateIA(CAnorth)
-CalculateIA(MX)
-CalculateIA(CAsouth)
-CalculateIA(Asia)
-# Clone-Corrected
-CalculateIA(vcf_GL_OG_SC2_CC)
-CalculateIA(CAnorthMLG0.01)
-CalculateIA(MX_MLG0.01)
-CalculateIA(CAsouthMLG0.01)
-CalculateIA(AsiaMLG0.01)
 
 #-------------------------------------------------------------------------------
 #                         Generating Basic Stats 
