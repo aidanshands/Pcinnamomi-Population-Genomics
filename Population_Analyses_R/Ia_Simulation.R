@@ -283,10 +283,6 @@ AO_BP
 #-------------------------------------------------------------------------------
 #  Visualizing All Uncorrected 
 #-------------------------------------------------------------------------------
-# Since the simulated values (Clonal, Semi-clonal, & Sexual) for each population 
-# do not change much, I'm going to plot the simulated values of the overall 
-# genlight (All_IA_Results). I'm going to combine the results from each pop and
-# plot them together. 
 Combined_Uncorrected = data.frame()
 Combined_Uncorrected = rbind(
   Asia_IA[Asia_IA$dataset == "Asia/Oceania", ],
@@ -521,10 +517,7 @@ AOCC_BP
 #-------------------------------------------------------------------------------
 #  Visualizing All Clone-corrected  
 #-------------------------------------------------------------------------------
-# Since the simulated values (Clonal, Semi-clonal, & Sexual) for each population 
-# do not change much, I'm going to plot the simulated values of the overall 
-# genlight (All_IA_Results). I'm going to combine the results from each pop and
-# plot them together. 
+
 Combined_Corrected = data.frame()
 Combined_Corrected = rbind(
   Asia_IA_CC[Asia_IA_CC$dataset == "Asia/Oceania", ],
