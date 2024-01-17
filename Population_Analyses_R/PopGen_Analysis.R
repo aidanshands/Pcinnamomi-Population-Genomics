@@ -203,7 +203,7 @@ plot_poppr_msn(vcf_GL_OG,
 gl = gl.compliance.check(vcf_GL_OG)
 gl2structure(vcf_GL_OG ,ploidy = 2, 
              outfile = "Pc_only136.p2.f1SV.vcft_dp4_Q20_NoSingleton_noMD_NoRepeats.583k.STRUCTURE.txt",
-             outpath = '/Users/manosalvalab/Desktop/Aidan/Pc_PopGen_2022/R_Analysis_Final/583K_outputs')
+             outpath = '583K_outputs')
 
 #-------------------------------------------------------------------------------
 #               Clone Correction with MLG Filter of 0.1    
