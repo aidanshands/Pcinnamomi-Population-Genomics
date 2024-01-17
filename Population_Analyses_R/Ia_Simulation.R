@@ -12,8 +12,7 @@ library(mmod)
 library(ggplot2)
 library(agricolae)
 library(ggthemes)
-#setwd('/bigdata/manosalvalab/pmanosal/Pc_PopGen_2022/variant_calling_diploid/PopGen_Stats_R/R_Analysis_on_HPCC_PAPER')
-setwd('/Users/manosalvalab/Desktop/Aidan/Pc_PopGen_2022/R_Analysis_on_HPCC_PAPER')
+
 # helpful resource : https://github.com/grunwaldlab/GBS-Pcinnamomi/blob/master/By_group.Rmd
 
 #-------------------------------------------------------------------------------
