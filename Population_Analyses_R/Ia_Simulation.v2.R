@@ -1,4 +1,4 @@
-# 7/27/23
+# 7/11/24
 # Aidan Shands
 
 library(adegenet)
@@ -12,7 +12,10 @@ library(mmod)
 library(ggplot2)
 library(agricolae)
 library(ggthemes)
-
+library(FSA)
+library(rcompanion)
+#setwd('/bigdata/manosalvalab/pmanosal/Pc_PopGen_2022/variant_calling_diploid/PopGen_Stats_R/R_Analysis_on_HPCC_PAPER')
+setwd('/Users/manosalvalab/Desktop/Aidan/Pc_PopGen_2022/R_Analysis_on_HPCC_PAPER')
 # helpful resource : https://github.com/grunwaldlab/GBS-Pcinnamomi/blob/master/By_group.Rmd
 
 #-------------------------------------------------------------------------------
@@ -45,7 +48,7 @@ DatasetCols <- c("Asia/Oceania" = "#1B9E77", "Mexico" = "#E7298A",
 #-------------------------------------------------------------------------------
 # Defining Functions
 #-------------------------------------------------------------------------------
-# Simulation and Ia function
+# Simulation and Ia function (modified from: https://github.com/grunwaldlab/GBS-Pcinnamomi/blob/master/By_group.Rmd)
 SimulateGL_CaluclateIA = function(Genlight, n_reps, n_SNPs, Genlight_Name){
   # Simulate Genlights
   Clone = glSim(nInd(Genlight),
@@ -83,11 +86,12 @@ SimulateGL_CaluclateIA = function(Genlight, n_reps, n_SNPs, Genlight_Name){
 }
 
 # Shapiro Wilks test 
+# Needed to change the "-" to "_" in Semi and Mostly-clonal for my NP_Stats() function to work.
 QC_Stats = function(data, Pc_Data){
   Sexual = subset(data, dataset == "Sexual")
   Clonal = subset(data, dataset == "Clonal")
-  Semiclonal = subset(data, dataset == "Semi-clonal")
-  Mostlyclonal = subset(data, dataset == "Mostly-clonal")
+  Semiclonal = subset(data, dataset == "Semi_clonal")
+  Mostlyclonal = subset(data, dataset == "Mostly_clonal")
   Pc = subset(data, dataset == Pc_Data)
   frames <- list(as.data.frame(Sexual), as.data.frame(Clonal), 
                  as.data.frame(Semiclonal), as.data.frame(Mostlyclonal), 
@@ -126,8 +130,26 @@ Stats = function(data, variable, value, test){
   return(results)
 }
 
+# Performs Kruskal-Wallis test and the Dunn's test (with letter groups assigned) (Non-parametric)
+NP_Stats = function(data, variable, value){
+  dataname = deparse(substitute(data)) # get name of data we are working on 
+  print(paste("Stats for ", dataname, sep=""))
+  print(paste("Kruskal-Wallis for: ", dataname, sep=""))
+  # generate a formula (value~variable)
+  formula =reformulate(variable, response = value)
+  KW = kruskal.test(formula, data = data) # run one-way anova
+  print(KW) # print Summary
+  print(paste("Dunn's Test Groups for: ", dataname, sep=""))
+  DTresult = dunnTest(formula, data = data, method="holm")$res
+  DunnResults = cldList(P.adj ~ Comparison, data = DTresult, threshold = 0.05, remove.zero = FALSE)
+  DunnResults = DunnResults %>%
+    select(-MonoLetter) %>%
+    rename(Isolate = Group, Dunn_Group = Letter)
+  return(DunnResults)
+}
+
 #-------------------------------------------------------------------------------
-#  Raw Subsets 
+#  Population Subsets 
 #-------------------------------------------------------------------------------
 Pops <- seppop(vcf_GL_OG)
 
@@ -137,18 +159,29 @@ Asia = as.snpclone(Pops$'Asia/Oceania')
 Mexico = as.snpclone(Pops$'Mexico')
 
 #-------------------------------------------------------------------------------
-#  All Data Uncorrected
+#  All Data 
 #-------------------------------------------------------------------------------
 # Genlight Simulation & Ia Calculation
 All_IA = SimulateGL_CaluclateIA(vcf_GL_OG, n_reps = 100, n_SNPs = 10000, "All Isolates")
-write_csv(All_IA, "All_IA.csv")
-All_Normality = QC_Stats(All_IA, "All Isolates")
+write.csv(All_IA, "All_IA.csv")
+#  I cannot have any '-' in the "semi-clonal" and "Mostly-clonal" factors
+# for the NP_Stats() function so I replaced with "_" using gsub.
+All_IA=read.csv("IA_Simulation_Outputs/All_IA.csv")
+All_IA2=All_IA
+All_IA2$dataset <- gsub("-", "_", All_IA2$dataset)
+All_Normality = QC_Stats(All_IA2, "All Isolates")
 All_Normality
+
 # Analysis of variance
-All_Results = Stats(All_IA, "dataset", "ia", "Tukey")
+All_Results = Stats(All_IA2, "dataset", "ia", "Tukey")
 colnames(All_Results) <- c("dataset","Mean", "Groups")
 All_Results
-write_csv(All_Results, "All_IA_Results.csv")
+write.csv(All_Results, "IA_Simulation_Outputs/All_IA_Results.csv")
+
+# Kruskal Wallis and Dunn Test 
+NP_All_Results = NP_Stats(All_IA2, "dataset", "ia")
+NP_All_Results
+
 # Visualization
 All_BP = ggplot(All_IA, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
   geom_boxplot() +
@@ -164,20 +197,27 @@ All_BP = All_BP + theme_classic() +
         axis.title=element_text(size=12,face="bold"))
 All_BP
 
-
 #-------------------------------------------------------------------------------
-#  CA-South Uncorrected
+#  CA-South 
 #-------------------------------------------------------------------------------
 # Genlight Simulation & Ia Calculation
 CA_South_IA = SimulateGL_CaluclateIA(CA_South, n_reps = 100, n_SNPs = 10000, "CA-South")
-write_csv(CA_South_IA, "CA_South_IA.csv")
-CAS_Normality = QC_Stats(CA_South_IA, "CA-South")
+write.csv(CA_South_IA, "CA_South_IA.csv")
+CA_South_IA=read.csv("IA_Simulation_Outputs/CA_South_IA.csv")
+CA_South_IA2=CA_South_IA
+CA_South_IA2$dataset <- gsub("-", "_", CA_South_IA2$dataset)
+CAS_Normality = QC_Stats(CA_South_IA2, "CA_South")
 CAS_Normality
+
 # Analysis of variance
-CAS_Results = Stats(CA_South_IA, "dataset", "ia", "Tukey")
+CAS_Results = Stats(CA_South_IA2, "dataset", "ia", "Tukey")
 colnames(CAS_Results) <- c("dataset","Mean", "Groups")
 CAS_Results
-write_csv(CAS_Results, "CA_South_IA_Results.csv")
+write.csv(CAS_Results, "CA_South_IA_Results.csv")
+
+# Kruskal Wallis and Dunn Test 
+CAS_NP_Results = NP_Stats(CA_South_IA2, "dataset", "ia")
+CAS_NP_Results
 
 # Visualization
 CAS_BP = ggplot(CA_South_IA, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
@@ -195,20 +235,26 @@ CAS_BP = CAS_BP + theme_classic() +
 CAS_BP
 
 #-------------------------------------------------------------------------------
-#  CA-North Uncorrected
+#  CA-North 
 #-------------------------------------------------------------------------------
 # Genlight Simulation & Ia Calculation
 CA_North_IA = SimulateGL_CaluclateIA(CA_North, n_reps = 100, n_SNPs = 10000, "CA-North")
-write_csv(CA_North_IA, "CA_North_IA.csv")
-CAN_Normality = QC_Stats(CA_North_IA, "CA-North")
+write.csv(CA_North_IA, "CA_North_IA.csv")
+CA_North_IA2=CA_North_IA
+CA_North_IA2$dataset <- gsub("-", "_", CA_North_IA2$dataset)
+CAN_Normality = QC_Stats(CA_North_IA2, "CA-North")
 CAN_Normality
+
 # Analysis of variance
-CAN_Results = Stats(CA_North_IA, "dataset", "ia", "Tukey")
+CAN_Results = Stats(CA_North_IA2, "dataset", "ia", "Tukey")
 colnames(CAN_Results) <- c("dataset","Mean", "Groups")
 CAN_Results
 write_csv(CAN_Results, "CA_North_IA_Results.csv")
-# Visualization
 
+# Kruskal Wallis and Dunn Test 
+CAN_NP_Results = NP_Stats(CA_North_IA2, "dataset", "ia")
+
+# Visualization
 CAN_BP = ggplot(CA_North_IA, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
   geom_boxplot() +
   #geom_text(data = CAS_Results, 
@@ -224,18 +270,26 @@ CAN_BP = CAN_BP + theme_classic() +
 CAN_BP
 
 #-------------------------------------------------------------------------------
-#  Mexico Uncorrected
+#  Mexico 
 #-------------------------------------------------------------------------------
 # Genlight Simulation & Ia Calculation
 Mexico_IA = SimulateGL_CaluclateIA(MX, n_reps = 100, n_SNPs = 10000, "Mexico")
-write_csv(Mexico_IA, "Mexico_IA.csv")
-MX_Normality = QC_Stats(Mexico_IA, "Mexico")
+write.csv(Mexico_IA, "IA_Simulation_Outputs/Mexico_IA.csv")
+Mexico_IA = read.csv("IA_Simulation_Outputs/Mexico_IA.csv")
+Mexico_IA2=Mexico_IA
+Mexico_IA2$dataset <- gsub("-", "_", Mexico_IA2$dataset)
+MX_Normality = QC_Stats(Mexico_IA2, "Mexico")
 MX_Normality
+
 # Analysis of variance
-Mexico_Results = Stats(Mexico_IA, "dataset", "ia", "Tukey")
+Mexico_Results = Stats(Mexico_IA2, "dataset", "ia", "Tukey")
 colnames(Mexico_Results) <- c("dataset","Mean", "Groups")
 Mexico_Results
-write_csv(Mexico_Results, "Mexico_IA_Results.csv")
+write.csv(Mexico_Results, "Mexico_IA_Results.csv")
+
+# Kruskal Wallis and Dunn Test 
+MX_NP_Results = NP_Stats(Mexico_IA2, "dataset", "ia")
+
 # Visualization
 MX_BP = ggplot(Mexico_IA, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
   geom_boxplot() +
@@ -252,18 +306,26 @@ MX_BP = MX_BP + theme_classic() +
 MX_BP
 
 #-------------------------------------------------------------------------------
-#  Asia/Oceania Uncorrected 
+#  Asia/Oceania  
 #-------------------------------------------------------------------------------
 # Genlight Simulation & Ia Calculation
 Asia_IA = SimulateGL_CaluclateIA(Asia, n_reps = 100, n_SNPs = 10000, "Asia/Oceania")
-write_csv(Asia_IA, "Asia_Oceania_IA.csv")
-Asia_Normality = QC_Stats(Asia_IA, "Asia/Oceania")
+write.csv(Asia_IA, "IA_Simulation_Outputs/Asia_Oceania_IA.csv")
+Asia_IA = read.csv("IA_Simulation_Outputs/Asia_Oceania_IA.csv")
+Asia_IA2=Asia_IA
+Asia_IA2$dataset <- gsub("-", "_", Asia_IA2$dataset)
+Asia_Normality = QC_Stats(Asia_IA2, "Asia/Oceania")
 Asia_Normality
+
 # Analysis of variance
-Asia_Results = Stats(Asia_IA, "dataset", "ia", "Tukey")
+Asia_Results = Stats(Asia_IA2, "dataset", "ia", "Tukey")
 colnames(Asia_Results) <- c("dataset","Mean", "Groups")
 Asia_Results
-write_csv(Asia_Results, "Asia_Oceania_IA_Results.csv")
+write.csv(Asia_Results, "Asia_Oceania_IA_Results.csv")
+
+# Kruskal Wallis and Dunn Test 
+Asia_NP_Results = NP_Stats(Asia_IA2, "dataset", "ia")
+Asia_NP_Results
 # Visualization
 AO_BP = ggplot(Asia_IA, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
   geom_boxplot() +
@@ -281,8 +343,12 @@ AO_BP
 
 
 #-------------------------------------------------------------------------------
-#  Visualizing All Uncorrected 
+#  Visualizing All Populations (Fig. 2)
 #-------------------------------------------------------------------------------
+# Since the simulated values (Clonal, Semi-clonal, & Sexual) for each population 
+# do not change much, I'm going to plot the simulated values of the overall 
+# genlight (All_IA_Results). I'm going to combine the results from each pop and
+# plot them together. This is Figure 2. 
 Combined_Uncorrected = data.frame()
 Combined_Uncorrected = rbind(
   Asia_IA[Asia_IA$dataset == "Asia/Oceania", ],
@@ -340,237 +406,6 @@ Combined_BP2
 ggsave("IA_BP_OnlyPops.FINAL.v2.pdf", Combined_BP2, width=4.28, height=3.78, units="in")
 
 #-------------------------------------------------------------------------------
-#  Clone Correction & Subsets 
-#-------------------------------------------------------------------------------
-# convert to snpclone
-SC = as.snpclone(vcf_GL_OG)
-pop(SC) <- as.factor(annot$location_Simple) # set pop by location
-strata(SC) = annot # set strata 
-
-# for MLG filter of 0.01
-mlg.filter(SC, algorithm = "average_neighbor", distance = "bitwise.dist") <- 0.01
-SC
-
-# Clone correct 
-SC_CC = clonecorrect(SC, strata= ~location_Simple)
-SC_CC
-
-#-------------------------------------------------------------------------------
-#  Clone-Corrected Subsets 
-#-------------------------------------------------------------------------------
-Pops_CC <- seppop(SC_CC)
-
-CA_South_CC = as.snpclone(Pops_CC$'CA-South')
-CA_North_CC = as.snpclone(Pops_CC$'CA-North')
-Asia_CC = as.snpclone(Pops_CC$'Asia/Oceania')
-Mexico_CC = as.snpclone(Pops_CC$'Mexico')
-
-#-------------------------------------------------------------------------------
-#  All Data Clone-corrected
-#-------------------------------------------------------------------------------
-# Genlight Simulation & Ia Calculation
-All_IA_CC = SimulateGL_CaluclateIA(SC_CC, n_reps = 100, n_SNPs = 10000, "All Isolates")
-write_csv(All_IA_CC, "All_IA_CC.csv")
-All_Normality_CC = QC_Stats(All_IA_CC, "All Isolates")
-All_Normality_CC
-# Analysis of variance
-All_Results_CC = Stats(All_IA_CC, "dataset", "ia", "Tukey")
-colnames(All_Results_CC) <- c("dataset","Mean", "Groups")
-All_Results_CC
-write_csv(All_Results_CC, "All_IA_CC_Results.csv")
-# Visualization
-All_BP_CC = ggplot(All_IA_CC, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
-  geom_boxplot() +
-  #geom_text(data = CAS_Results, 
-  #aes(label = Groups, y = max(CAS_ia.total$ia) + 0.02),
-  #vjust = -0.5) +
-  scale_fill_manual(values=DatasetCols, name="Dataset") 
-
-All_BP_CC = All_BP_CC + theme_classic() + 
-  labs(x="Dataset", y = "Index of Association")+
-  theme(axis.text.x = element_text(size = 10, angle = 45, vjust = 0.5),
-        axis.text.y = element_text(size = 10),
-        axis.title=element_text(size=12,face="bold"))
-All_BP_CC
-
-
-#-------------------------------------------------------------------------------
-#  CA-South Clone-corrected
-#-------------------------------------------------------------------------------
-# Genlight Simulation & Ia Calculation
-CA_South_IA_CC= SimulateGL_CaluclateIA(CA_South_CC, n_reps = 100, n_SNPs = 10000, "CA-South")
-write_csv(CA_South_IA_CC, "CA_South_IA_CC.csv")
-CAS_Normality_CC = QC_Stats(CA_South_IA_CC, "CA-South")
-CAS_Normality_CC
-# Analysis of variance
-CAS_Results_CC = Stats(CA_South_IA_CC, "dataset", "ia", "Tukey")
-colnames(CAS_Results_CC) <- c("dataset","Mean", "Groups")
-CAS_Results_CC
-write_csv(CAS_Results_CC, "CA_South_IA_CC_Results.csv")
-
-# Visualization
-CASCC_BP = ggplot(CA_South_IA_CC, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
-  geom_boxplot() +
-  #geom_text(data = CAS_Results, 
-  #aes(label = Groups, y = max(CAS_ia.total$ia) + 0.02),
-  #vjust = -0.5) +
-  scale_fill_manual(values=DatasetCols, name="Dataset") 
-
-CASCC_BP = CASCC_BP + theme_classic() + 
-  labs(x="Dataset", y = "Index of Association")+
-  theme(axis.text.x = element_text(size = 10, angle = 45, vjust = 0.5),
-        axis.text.y = element_text(size = 10),
-        axis.title=element_text(size=12,face="bold"))
-CASCC_BP
-
-#-------------------------------------------------------------------------------
-#  CA-North Clone-corrected
-#-------------------------------------------------------------------------------
-# Genlight Simulation & Ia Calculation
-CA_North_IA_CC = SimulateGL_CaluclateIA(CA_North_CC, n_reps = 100, n_SNPs = 10000, "CA-North")
-write_csv(CA_North_IA_CC, "CA_North_IA_CC.csv")
-CAN_Normality_CC = QC_Stats(CA_North_IA_CC, "CA-North")
-CAN_Normality_CC
-# Analysis of variance
-CAN_Results_CC = Stats(CA_North_IA_CC, "dataset", "ia", "Tukey")
-colnames(CAN_Results_CC) <- c("dataset","Mean", "Groups")
-CAN_Results_CC
-write_csv(CAN_Results_CC, "CA_North_IA_CC_Results.csv")
-# Visualization
-
-CANCC_BP = ggplot(CA_North_IA_CC, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
-  geom_boxplot() +
-  #geom_text(data = CAS_Results, 
-  #aes(label = Groups, y = max(CAS_ia.total$ia) + 0.02),
-  #vjust = -0.5) +
-  scale_fill_manual(values=DatasetCols, name="Dataset") 
-
-CANCC_BP = CANCC_BP + theme_classic() + 
-  labs(x="Dataset", y = "Index of Association")+
-  theme(axis.text.x = element_text(size = 10, angle = 45, vjust = 0.5),
-        axis.text.y = element_text(size = 10),
-        axis.title=element_text(size=12,face="bold"))
-CANCC_BP
-
-
-#-------------------------------------------------------------------------------
-#  Mexico Clone-corrected
-#-------------------------------------------------------------------------------
-# Genlight Simulation & Ia Calculation
-Mexico_IA_CC = SimulateGL_CaluclateIA(Mexico_CC, n_reps = 100, n_SNPs = 10000, "Mexico")
-write_csv(Mexico_IA_CC, "Mexico_IA_CC.csv")
-MX_Normality_CC = QC_Stats(Mexico_IA_CC, "Mexico")
-MX_Normality_CC
-# Analysis of variance
-Mexico_Results_CC = Stats(Mexico_IA_CC, "dataset", "ia", "Tukey")
-colnames(Mexico_Results_CC) <- c("dataset","Mean", "Groups")
-Mexico_Results_CC
-write_csv(Mexico_Results_CC, "Mexico_IA_CC_Results.csv")
-# Visualization
-MXCC_BP = ggplot(Mexico_IA_CC, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
-  geom_boxplot() +
-  #geom_text(data = CAS_Results, 
-  #aes(label = Groups, y = max(CAS_ia.total$ia) + 0.02),
-  #vjust = -0.5) +
-  scale_fill_manual(values=DatasetCols, name="Dataset") 
-
-MXCC_BP = MXCC_BP + theme_classic() + 
-  labs(x="Dataset", y = "Index of Association")+
-  theme(axis.text.x = element_text(size = 10, angle = 45, vjust = 0.5),
-        axis.text.y = element_text(size = 10),
-        axis.title=element_text(size=12,face="bold"))
-MXCC_BP
-
-#-------------------------------------------------------------------------------
-#  Asia/Oceania Clone-corrected 
-#-------------------------------------------------------------------------------
-# Genlight Simulation & Ia Calculation
-Asia_IA_CC = SimulateGL_CaluclateIA(Asia_CC, n_reps = 100, n_SNPs = 10000, "Asia/Oceania")
-write_csv(Asia_IA_CC, "Asia_Oceania_IA_CC.csv")
-Asia_Normality_CC = QC_Stats(Asia_IA_CC, "Asia/Oceania")
-Asia_Normality_CC
-# Analysis of variance
-Asia_Results_CC = Stats(Asia_IA_CC, "dataset", "ia", "Tukey")
-colnames(Asia_Results_CC) <- c("dataset","Mean", "Groups")
-Asia_Results_CC
-write_csv(Asia_Results_CC, "Asia_Oceania_IA_CC_Results.csv")
-# Visualization
-AOCC_BP = ggplot(Asia_IA_CC, aes(x = dataset, y=ia, fill=as.factor(dataset))) + 
-  geom_boxplot() +
-  #geom_text(data = CAS_Results, 
-  #aes(label = Groups, y = max(CAS_ia.total$ia) + 0.02),
-  #vjust = -0.5) +
-  scale_fill_manual(values=DatasetCols, name="Dataset") 
-
-AOCC_BP = AOCC_BP + theme_classic() + 
-  labs(x="Dataset", y = "Index of Association")+
-  theme(axis.text.x = element_text(size = 10, angle = 45, vjust = 0.5),
-        axis.text.y = element_text(size = 10),
-        axis.title=element_text(size=12,face="bold"))
-AOCC_BP
-
-
-
-
-
-
-#-------------------------------------------------------------------------------
-#  Visualizing All Clone-corrected  
-#-------------------------------------------------------------------------------
-
-Combined_Corrected = data.frame()
-Combined_Corrected = rbind(
-  Asia_IA_CC[Asia_IA_CC$dataset == "Asia/Oceania", ],
-  Mexico_IA_CC[Mexico_IA_CC$dataset == "Mexico", ],
-  CA_South_IA_CC[CA_South_IA_CC$dataset == "CA-South", ],
-  CA_North_IA_CC[CA_North_IA_CC$dataset == "CA-North", ],
-  All_IA_CC
-)
-
-# Custom Order
-Combined_Corrected$dataset <- factor(Combined_Corrected$dataset, levels = custom_order)
-write_csv(Combined_Corrected, "Combined_Corrected_IA.csv")
-
-Combined_Corrected = read.csv("IA_Simulation_Outputs/Combined_Corrected_IA.csv")
-# remove Mostly-clonal
-Combined_Corrected = subset(Combined_Corrected, dataset != "Mostly-clonal")
-# Visualization All samples 
-Combined_BP_CC1 = ggplot(Combined_Corrected, aes(x = factor(dataset, levels = plot_order), y=ia, fill=as.factor(dataset))) + 
-  geom_boxplot(lwd = 0.3) +
-  scale_fill_manual(values=DatasetCols, name="Dataset") 
-
-Combined_BP_CC1 = Combined_BP_CC1 + theme_bw() + 
-  labs(x="", y = "Index of Association")+
-  theme(axis.text.x = element_text(size = 10, angle = 45, vjust = 0.5),
-        axis.text.y = element_text(size = 10),
-        axis.title=element_text(size=12,face="bold"),
-        legend.position = "none")
-Combined_BP_CC1
-
-ggsave(Combined_BP_CC1,filename = "IA_CC_BP.FINAL.pdf", 
-       width = 8, height = 6, units = "in", dpi = 300)
-
-# Remove the All Isolates sample 
-Combined_Corrected_2 <- subset(Combined_Corrected, dataset != "All Isolates")
-
-# Visualization Only Pops 
-Combined_BP_CC2 = ggplot(Combined_Corrected_2, aes(x = factor(dataset, levels = plot_order), y=ia, fill=as.factor(dataset))) + 
-  geom_boxplot(lwd = 0.1, outlier.size = 0.3) +
-  scale_fill_manual(values=DatasetCols, name="Dataset") 
-
-Combined_BP_CC2 = Combined_BP_CC2 + theme_few() + 
-  labs(x="", y = "Index of association")+
-  theme(axis.text.x = element_text(size = 8, angle = 45, vjust = 0.5),
-        axis.text.y = element_text(size = 8),
-        axis.title=element_text(size=10),
-        legend.position = "none")+
-  scale_y_continuous(breaks = seq(0, 0.55, .1), limits = c(0, 0.55))
-Combined_BP_CC2
-
-#ggsave(Combined_BP_CC2,filename = "IA_CC_BP_OnlyPops.FINAL.pdf", width = 8, height = 6, units = "in", dpi = 300)
-ggsave("IA_CC_BP_OnlyPops.FINAL.v2.pdf", Combined_BP_CC2, width=4.28, height=3.78, units="in")
-
-#-------------------------------------------------------------------------------
 #  Stats Excluding Mostly-Clonal 
 #-------------------------------------------------------------------------------
 
@@ -578,7 +413,7 @@ ggsave("IA_CC_BP_OnlyPops.FINAL.v2.pdf", Combined_BP_CC2, width=4.28, height=3.7
 QC_Stats2 = function(data, Pc_Data){
   Sexual = subset(data, dataset == "Sexual")
   Clonal = subset(data, dataset == "Clonal")
-  Semiclonal = subset(data, dataset == "Semi-clonal")
+  Semiclonal = subset(data, dataset == "Semi_clonal")
   Pc = subset(data, dataset == Pc_Data)
   frames <- list(as.data.frame(Sexual), as.data.frame(Clonal), 
                  as.data.frame(Semiclonal), as.data.frame(Pc))
@@ -590,122 +425,91 @@ QC_Stats2 = function(data, Pc_Data){
 }
 
 #-------------
-#  Uncorrected 
-#-------------
 # All pops 
+#-------------
 All_IA = read.csv("IA_Simulation_Outputs/All_IA.csv")
-All_IA = subset(All_IA, dataset != "Mostly-clonal")
-All_Normality = QC_Stats2(All_IA, "All Isolates")
+All_IA2 = All_IA
+All_IA2$dataset <- gsub("-", "_", All_IA2$dataset)
+All_IA2 = subset(All_IA2, dataset != "Mostly_clonal")
+All_Normality = QC_Stats2(All_IA2, "All Isolates")
 All_Normality
 # Analysis of variance
-All_Results = Stats(All_IA, "dataset", "ia", "Tukey")
+All_Results = Stats(All_IA2, "dataset", "ia", "Tukey")
 colnames(All_Results) <- c("dataset","Mean", "Groups")
 All_Results
 write.csv(All_Results, "IA_Simulation_Outputs/All_IA_Results_NoMC.csv")
+# Kruskal-Wallis and Dunn Test but with no semi-clonal
+# This is the P-value used in the results section
+NP_All_Results_NoSC = NP_Stats(All_IA2, "dataset", "ia")
+NP_All_Results_NoSC
 
-
+#-------------
 # CA-South
+#-------------
 CA_South_IA = read.csv("IA_Simulation_Outputs/CA_South_IA.csv")
-CA_South_IA = subset(CA_South_IA, dataset != "Mostly-clonal")
-CA_South_Normality = QC_Stats2(CA_South_IA, "CA-South")
+CA_South_IA2 = CA_South_IA
+CA_South_IA2$dataset <- gsub("-", "_", CA_South_IA2$dataset)
+CA_South_IA = subset(CA_South_IA2, dataset != "Mostly-clonal")
+CA_South_Normality = QC_Stats2(CA_South_IA2, "CA_South")
 CA_South_Normality
 # Analysis of variance
-CA_South_Results = Stats(CA_South_IA, "dataset", "ia", "Tukey")
+CA_South_Results = Stats(CA_South_IA2, "dataset", "ia", "Tukey")
 colnames(CA_South_Results) <- c("dataset","Mean", "Groups")
 CA_South_Results
 write.csv(CA_South_Results, "IA_Simulation_Outputs/CA_South_IA_Results_NoMC.csv")
+# Kruskal-Wallis and Dunn Test but with no semi-clonal
+CA_South_NP_Results_NoSC = NP_Stats(CA_South_IA2, "dataset", "ia")
+CA_South_NP_Results_NoSC
 
+#-------------
 # CA-North
+#-------------
 CA_North_IA = read.csv("IA_Simulation_Outputs/CA_North_IA.csv")
-CA_North_IA = subset(CA_North_IA, dataset != "Mostly-clonal")
-CA_North_Normality = QC_Stats2(CA_North_IA, "CA-North")
+CA_North_IA2 = CA_North_IA
+CA_North_IA2$dataset <- gsub("-", "_", CA_North_IA2$dataset)
+CA_North_IA = subset(CA_North_IA2, dataset != "Mostly-clonal")
+CA_North_Normality = QC_Stats2(CA_North_IA2, "CA_North")
 CA_North_Normality
 # Analysis of variance
-CA_North_Results = Stats(CA_North_IA, "dataset", "ia", "Tukey")
+CA_North_Results = Stats(CA_North_IA2, "dataset", "ia", "Tukey")
 colnames(CA_North_Results) <- c("dataset","Mean", "Groups")
 CA_North_Results
 write.csv(CA_North_Results, "IA_Simulation_Outputs/CA_North_IA_Results_NoMC.csv")
+# Kruskal-Wallis and Dunn Test but with no semi-clonal
+CA_North_NP_Results_NoSC = NP_Stats(CA_North_IA2, "dataset", "ia")
+CA_North_NP_Results_NoSC
 
+#-------------
 # Mexico
+#-------------
 Mexico_IA = read.csv("IA_Simulation_Outputs/Mexico_IA.csv")
-Mexico_IA = subset(Mexico_IA, dataset != "Mostly-clonal")
-Mexico_Normality = QC_Stats2(Mexico_IA, "Mexico")
+Mexico_IA2 = Mexico_IA
+Mexico_IA2$dataset <- gsub("-", "_", Mexico_IA2$dataset)
+Mexico_IA = subset(Mexico_IA2, dataset != "Mostly-clonal")
+Mexico_Normality = QC_Stats2(Mexico_IA2, "Mexico")
 Mexico_Normality
 # Analysis of variance
-Mexico_Results = Stats(Mexico_IA, "dataset", "ia", "Tukey")
+Mexico_Results = Stats(Mexico_IA2, "dataset", "ia", "Tukey")
 colnames(Mexico_Results) <- c("dataset","Mean", "Groups")
 Mexico_Results
 write.csv(Mexico_Results, "IA_Simulation_Outputs/Mexico_IA_Results_NoMC.csv")
+# Kruskal-Wallis and Dunn Test but with no semi-clonal
+Mexico_NP_Results_NoSC = NP_Stats(Mexico_IA2, "dataset", "ia")
+Mexico_NP_Results_NoSC
 
+#-------------
 # Asia/Oceania
+#-------------
 Asia_IA = read.csv("IA_Simulation_Outputs/Asia_Oceania_IA.csv")
-Asia_IA = subset(Asia_IA, dataset != "Mostly-clonal")
-Asia_Normality = QC_Stats2(Asia_IA, "Asia/Oceania")
+Asia_IA2 = Asia_IA
+Asia_IA2$dataset <- gsub("-", "_", Asia_IA2$dataset)
+Asia_IA = subset(Asia_IA2, dataset != "Mostly-clonal")
+Asia_Normality = QC_Stats2(Asia_IA2, "Asia/Oceania")
 Asia_Normality
 # Analysis of variance
-Asia_Results = Stats(Asia_IA, "dataset", "ia", "Tukey")
+Asia_Results = Stats(Asia_IA2, "dataset", "ia", "Tukey")
 colnames(Asia_Results) <- c("dataset","Mean", "Groups")
 Asia_Results
 write.csv(Asia_Results, "IA_Simulation_Outputs/Asia_Oceania_IA_Results_NoMC.csv")
-
-#-----------------
-#  Clone-corrected 
-#-----------------
-
-# All pops 
-All_IA_CC = read.csv("IA_Simulation_Outputs/All_IA_CC.csv")
-All_IA_CC = subset(All_IA_CC, dataset != "Mostly-clonal")
-All_Normality_CC = QC_Stats2(All_IA_CC, "All Isolates")
-All_Normality_CC
-# Analysis of variance
-All_Results_CC = Stats(All_IA_CC, "dataset", "ia", "Tukey")
-colnames(All_Results_CC) <- c("dataset","Mean", "Groups")
-All_Results
-write.csv(All_Results_CC, "IA_Simulation_Outputs/All_IA_Results_CC_NoMC.csv")
-
-
-# CA-South
-CA_South_IA_CC = read.csv("IA_Simulation_Outputs/CA_South_IA_CC.csv")
-CA_South_IA_CC = subset(CA_South_IA_CC, dataset != "Mostly-clonal")
-CA_South_Normality_CC = QC_Stats2(CA_South_IA_CC, "CA-South")
-CA_South_Normality_CC
-# Analysis of variance
-CA_South_Results_CC = Stats(CA_South_IA_CC, "dataset", "ia", "Tukey")
-colnames(CA_South_Results_CC) <- c("dataset","Mean", "Groups")
-CA_South_Results_CC
-write.csv(CA_South_Results_CC, "IA_Simulation_Outputs/CA_South_IA_Results_CC_NoMC.csv")
-
-# CA-North
-CA_North_IA_CC = read.csv("IA_Simulation_Outputs/CA_North_IA_CC.csv")
-CA_North_IA_CC = subset(CA_North_IA_CC, dataset != "Mostly-clonal")
-CA_North_Normality_CC = QC_Stats2(CA_North_IA_CC, "CA-North")
-CA_North_Normality_CC
-# Analysis of variance
-CA_North_Results_CC = Stats(CA_North_IA_CC, "dataset", "ia", "Tukey")
-colnames(CA_North_Results_CC) <- c("dataset","Mean", "Groups")
-CA_North_Results_CC
-write.csv(CA_North_Results_CC, "IA_Simulation_Outputs/CA_North_IA_CC_Results_NoMC.csv")
-
-# Mexico
-Mexico_IA_CC = read.csv("IA_Simulation_Outputs/Mexico_IA_CC.csv")
-Mexico_IA_CC = subset(Mexico_IA_CC, dataset != "Mostly-clonal")
-Mexico_Normality_CC = QC_Stats2(Mexico_IA_CC, "Mexico")
-Mexico_Normality_CC
-# Analysis of variance
-Mexico_Results_CC = Stats(Mexico_IA_CC, "dataset", "ia", "Tukey")
-colnames(Mexico_Results_CC) <- c("dataset","Mean", "Groups")
-Mexico_Results_CC
-write.csv(Mexico_Results_CC, "IA_Simulation_Outputs/Mexico_IA_Results_CC_NoMC.csv")
-
-# Asia/Oceania
-Asia_IA_CC = read.csv("IA_Simulation_Outputs/Asia_Oceania_IA_CC.csv")
-Asia_IA_CC = subset(Asia_IA_CC, dataset != "Mostly-clonal")
-Asia_Normality_CC = QC_Stats2(Asia_IA_CC, "Asia/Oceania")
-Asia_Normality_CC
-# Analysis of variance
-Asia_Results_CC = Stats(Asia_IA_CC, "dataset", "ia", "Tukey")
-colnames(Asia_Results_CC) <- c("dataset","Mean", "Groups")
-Asia_Results_CC
-write.csv(Asia_Results_CC, "IA_Simulation_Outputs/Asia_Oceania_IA_Results_CC_NoMC.csv")
-
-
+# Kruskal-Wallis and Dunn Test but with no semi-clonal
+Asia_NP_Results_NoSC = NP_Stats(Asia_IA2, "dataset", "ia")
