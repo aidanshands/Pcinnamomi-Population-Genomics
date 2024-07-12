@@ -48,7 +48,6 @@ library(jsonlite)
 library(googleway)
 library(ggmapstyles)
 
-
 #-------------------------------------------------------------------------------
 # Importing Annotation Data
 #-------------------------------------------------------------------------------
@@ -84,9 +83,8 @@ LocationCols <- c("Asia/Oceania" = "#1B9E77", "MX" = "#E7298A",
                   "CA-south" = "#7570B3", "CA-north" = "#D95F02")
 #-------------------------------------------------------------------------------
 #             Principal Component Analysis (PCA)
-#                                Figure S1A
+#                                Figure S1B
 #-------------------------------------------------------------------------------
-
 # Determining the amount of PCs to use
 # all pops
 vcf_GL.pca <- glPca(vcf_GL_OG, nf = 4)
@@ -130,7 +128,7 @@ vcf_GLpca_Scores = vcf_GL.pca$scores
 
 #-------------------------------------------------------------------------------
 #               Discriminant Analysis of Principal Components
-#                                Figure S2C
+#                                Figure S2A
 #-------------------------------------------------------------------------------
 # Generating DAPC
 DAPC <- dapc(vcf_GL_OG, pop=as.factor(unlist(vcf_GL_OG$pop)), n.pca=10, n.da=3,
@@ -146,7 +144,6 @@ scatter.dapc(DAPC, grp=as.factor(unlist(vcf_GL_OG$pop)), legend=T,
 #     Unweighted Pair Group Method with Arithmetic Mean (UPGMA) Tree
 #                         Tree Used in Figure 1
 #-------------------------------------------------------------------------------
-
 # All pop
 tree <- aboot(vcf_GL_OG, tree = "upgma", distance = bitwise.dist, 
               sample = 1000, showtree = F, cutoff = 50, quiet = T)
@@ -163,13 +160,13 @@ axis(side = 1)
 title(xlab = "Genetic distance (proportion of loci that are different)")
 #quartz.save("Pc136_583k_UPGMA_Tree_1000BSR.pdf", type="pdf")
 #write.nexus(tree, file = "Pc136_583k_UPGMA_Tree_1000BSR.nex") 
+
 #-------------------------------------------------------------------------------
 #                         Minimum spanning Network (MSN)
-#                                Figure S2B
+#                                Figure S2C
 #-------------------------------------------------------------------------------
 # customize in Shiny app
 # imsn()
-
 vcf_GL_OG_sub <- popsub(vcf_GL_OG, exclude = character(0))
 vcf_GL_OG_nomiss <- missingno(vcf_GL_OG, type = 'mean')
 vcf_GL_OG_dist <- bitwise.dist(vcf_GL_OG_nomiss, percent = TRUE, 
@@ -203,11 +200,11 @@ plot_poppr_msn(vcf_GL_OG,
 gl = gl.compliance.check(vcf_GL_OG)
 gl2structure(vcf_GL_OG ,ploidy = 2, 
              outfile = "Pc_only136.p2.f1SV.vcft_dp4_Q20_NoSingleton_noMD_NoRepeats.583k.STRUCTURE.txt",
-             outpath = '583K_outputs')
+             outpath = '/Users/manosalvalab/Desktop/Aidan/Pc_PopGen_2022/R_Analysis_Final/583K_outputs')
 
 #-------------------------------------------------------------------------------
 #               Clone Correction with MLG Filter of 0.1    
-#                     MLGs used in Tables S2 & S4
+#                     MLGs used in Tables S2 & S5
 #-------------------------------------------------------------------------------
 # convert to snpclone
 vcf_GL_OG_SC2 = as.snpclone(vcf_GL_OG)
@@ -230,7 +227,6 @@ names(vcf_GL_OG_SC2_Vec) <- vcf_GL_OG$ind.names
 #-------------------------------------------------------------------------------
 #                 UPGMA Tree with Clone-Corrected Data
 #-------------------------------------------------------------------------------
-
 # Tree 
 tree <- aboot(vcf_GL_OG_SC2_CC, tree = "upgma", distance = bitwise.dist, 
               sample = 1000, showtree = F, cutoff = 50, quiet = T)
@@ -246,7 +242,7 @@ title(xlab = "Genetic distance (proportion of loci that are different)")
 #write.nexus(tree, file = "Pc92_583k_UPGMA_Tree_0.01MLG_CC_1000BS.nex") 
 #-------------------------------------------------------------------------------
 #                      MSN with Clone-Corrected Data
-#                               Figure S2C
+#                               Figure S3C
 #-------------------------------------------------------------------------------
 vcf_GL_OG_SC2_CC_sub <- popsub(vcf_GL_OG_SC2_CC, exclude = character(0))
 vcf_GL_OG_SC2_CC_nomiss <- missingno(vcf_GL_OG_SC2_CC, type = 'mean')
@@ -276,9 +272,8 @@ plot_poppr_msn(vcf_GL_OG_SC2_CC,
 
 #-------------------------------------------------------------------------------
 #                       PCA with Clone-Corrected Data 
-#                                Figure S2A
+#                                Figure S3B
 #-------------------------------------------------------------------------------
-
 # Determining the amount of PCs to use
 vcf_GL_CC.pca <- glPca(vcf_GL_OG_SC2_CC, nf = 4)
 barplot(100*vcf_GL_CC.pca$eig/sum(vcf_GL_CC.pca$eig), 
@@ -319,9 +314,8 @@ p
 
 #-------------------------------------------------------------------------------
 #                       DAPC with Clone-Corrected Data 
-#                                Figure S2B
+#                                Figure S3A
 #-------------------------------------------------------------------------------
-
 # identify number of PCs to use for n.pca
 #pramx_F3 <- xvalDapc(tab(vcf_GL3, NA.method = "mean"), pop(vcf_GL3))
 # Generating DAPC
@@ -360,21 +354,8 @@ CAsouthMLG0.01 = popsub(vcf_GL_OG_SC2_CC, exclude=c('Asia','CA-north', 'MX'))
 AsiaMLG0.01 = popsub(vcf_GL_OG_SC2_CC, exclude=c('CA-south','CA-north', 'MX'))
 
 #-------------------------------------------------------------------------------
-# Functions to perform Basic Stats, & Pairwise GST (Hedrick's & Nei's)
+# Functions to perform Pairwise GST (Hedrick's & Nei's)
 #-------------------------------------------------------------------------------
-# These were all performed on the UCR HPCC because they take a long time. 
-
-# Basic Stats (dartR/hierfstat)
-Basic_Stats = function(GL){
-  Stats = utils.basic.stats(GL)
-  name = deparse(substitute(GL))
-  write.csv(Stats$Ho, paste0("Pc_583k.Ho.",name,".csv"))
-  write.csv(Stats$Hs,  paste0("Pc_583k.Hs.",name,".csv"))
-  write.csv(Stats$perloc,  paste0("Pc_583k.perloc.",name,".csv"))
-  write.csv(Stats$Fis,  paste0("Pc_583k.Fis.",name,".csv"))
-  write.csv(Stats$overall,  paste0("Pc_583k.overall.",name,".csv"))
-}
-
 # Hedrick's and Nei's Gst (mmod)
 PW_Gst_CC = function(Gind){
   name = deparse(substitute(Gind))
@@ -387,25 +368,8 @@ PW_Gst_CC = function(Gind){
 }
 
 #-------------------------------------------------------------------------------
-#                         Generating Basic Stats 
-#                                Table 2
-#-------------------------------------------------------------------------------
-# Uncorrected 
-Basic_Stats(vcf_GL_OG)
-Basic_Stats(CAnorth)
-Basic_Stats(MX)
-Basic_Stats(CAsouth)
-Basic_Stats(Asia)
-# Clone-Corrected
-Basic_Stats(vcf_GL_OG_SC2_CC)
-Basic_Stats(CAnorthMLG0.01)
-Basic_Stats(MX_MLG0.01)
-Basic_Stats(CAsouthMLG0.01)
-Basic_Stats(AsiaMLG0.01)
-
-#-------------------------------------------------------------------------------
 #                        Calculating Pairwise Gst 
-#                                Table 3
+#                                Table 2
 #-------------------------------------------------------------------------------
 # Uncorrected 
 PW_Gst_CC(vcf_GL_OG)
@@ -417,7 +381,6 @@ PW_Gst_CC(vcf_GL_OG_SC2_CC)
 #.                              Figure 1 
 #-------------------------------------------------------------------------------
 # Raw UPGMA tree with 1000 BS and adding the FastStructure LogPrior data (k=4)
-
 # Trees
 Tree = read.beast("Pc136_583K_UPGMA_Tree_1000BSR_FigtreeOut.nex") 
 
@@ -641,7 +604,3 @@ P9 = AS3M + geom_scatterpie(aes(x=longitude, y=latitude, group=region),
 P9
 #ggsave(P9,filename = "Asia.v5.BW.pdf", width = 12.59, height = 7.06, 
        #units = "in", limitsize = FALSE)
-
-
-
-
