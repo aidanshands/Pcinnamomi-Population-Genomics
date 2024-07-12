@@ -1,5 +1,10 @@
-# Aidan Shands
-
+#-------------------------------------------------------------------------------
+# Aidan Shands 
+# Manosalva Lab @ University of California, Riverside
+#-------------------------------------------------------------------------------
+### ----------------------------------------------------------------------------
+# Load packages
+### ----------------------------------------------------------------------------
 library(ggplot2)
 library(agricolae)
 library(car)
@@ -9,7 +14,7 @@ library(tidyverse)
 library(rcompanion)
 library(ggthemes)
 #-------------------------------------------------------------------------------
-setwd("/Users/manosalvalab/Desktop/Aidan/Pc_PopGen_2022/PopGen_Scripts_Github/PotassiumPhosphite_Phenotyping")
+setwd("/Users/manosalvalab/Desktop/Aidan/Chapter2_Pc_Population_Genomics/Pc_PopGen_Paper/2024_Revisions/GitHub/PotassiumPhosphite_Phenotyping")
 PPP_Data <- read.csv("PPEC50_Data.csv", header = T)
 
 Cols <- c("South" = "#7570B3", "North" = "#D95F02")
@@ -130,7 +135,7 @@ DUNN_j = subset(IS_DUNN, select = c(Isolate, Dunn_Group))
 colnames(DUNN_j) <- c('Isolate', 'Dunn_Groups')
 
 Sum_List = list(PPP_SUM, TT_j, FLSD_j, DUNN_j)
-# Summary used in Table S4
+# Summary used in Table S5
 Comb_Summary = Reduce(function(x, y) merge(x, y, all=TRUE), Sum_List) 
 colnames(Comb_Summary) <- c('Isolate', 'County', 'State',  'Country', 'Growing_Region',
                             "Mean_EC50", 'SD', 'TT_Groups', 'FLSD_Groups', 'Dunn_Groups')
@@ -145,7 +150,7 @@ table(CA_SUM$Growing_Region)
 # Visualizations
 #-------------------------------------------------------------------------------
 #-----------
-# Figure 3C
+# Figure 4B
 #-----------
 BP4 = ggplot(CA_SUM, aes(x=Growing_Region, y=Mean_EC50, fill= Growing_Region)) + geom_boxplot()
 BP4= BP4 + theme_few() + scale_fill_manual(values=Cols) + 
@@ -155,12 +160,13 @@ BP4= BP4 + theme_few() + scale_fill_manual(values=Cols) +
         axis.title=element_text(size=10),
         legend.position = "none")
 BP4
-ggsave("PPP_EC50_Boxplot_Region_Paper.v4.pdf",BP4, width=4.28, height=3.78, units="in")
+#ggsave("PPP_EC50_Boxplot_Region_Paper.v4.pdf",BP4, width=4.28, height=3.78, units="in")
 
 # Since the Kruskal-wallis test was significant, I'm placing a, and b above the 
 # boxes to indicate significance. 
+
 #-----------
-# Figure 2B
+# Figure 4A
 #-----------
 # Scott's bin
 SB = hist(Comb_Summary$Mean_EC50, breaks = "Scott", xlab = "EC50", main = "Scott's bin of Mean EC50 values")
@@ -174,5 +180,4 @@ SB_Final = ggplot(data = SB_df, aes(x = x, y = freq)) +
         axis.text.y = element_text(size = 8),
         axis.title=element_text(size=10))
 SB_Final
-#ggsave("PPP_EC50_Scotts_Bin.pdf",SB_Final, width=6, height=4, units="in")
-ggsave("PPP_EC50_Scotts_Bin_Paper.v4.pdf",SB_Final, width=4.28, height=3.78, units="in")
+#ggsave("PPP_EC50_Scotts_Bin_Paper.v4.pdf",SB_Final, width=4.28, height=3.78, units="in")
