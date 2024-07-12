@@ -1,5 +1,7 @@
-# Aidan Shands
-
+#-------------------------------------------------------------------------------
+# Aidan Shands 
+# Manosalva Lab @ University of California, Riverside
+#-------------------------------------------------------------------------------
 ### ----------------------------------------------------------------------------
 # Load packages
 ### ----------------------------------------------------------------------------
@@ -25,7 +27,7 @@ library(rcompanion)
 ### ----------------------------------------------------------------------------
 # Importing data, & Setting factors 
 ### ----------------------------------------------------------------------------
-setwd("/Users/manosalvalab/Desktop/Aidan/Pc_PopGen_2022/PopGen_Scripts_Github/GrowthRate_Phenotyping")
+setwd("/Users/manosalvalab/Desktop/Aidan/Chapter2_Pc_Population_Genomics/Pc_PopGen_Paper/2024_Revisions/GitHub/GrowthRate_Phenotyping")
 
 OGT_Data <- read.csv("GR_Data.csv", header = T)
 # Setting factors 
@@ -393,7 +395,7 @@ print(ONA_FLSD_Temp_Ratio_CA)
 ### ----------------------------------------------------------------------------
 
 #----------
-# Figure 2A
+# Figure 3A
 #----------
 BP4 = ggplot(OGT_Data2, aes(x=Temperature, y=RGPD)) + geom_boxplot(outlier.size = 0.75)
 BP4= BP4 + theme_classic() + 
@@ -403,14 +405,14 @@ BP4= BP4 + theme_classic() +
         axis.title=element_text(size=8,face="bold"))+
   guides(fill = guide_legend(title = "Growing Region"))
 BP4
-ggsave("OGTBoxplot_All_Paper.v2.pdf",BP4, width=4.28, height=3.78, units="in")
+#ggsave("OGTBoxplot_All_Paper.v2.pdf",BP4, width=4.28, height=3.78, units="in")
 
 # Letter groupings are 22˚C-a, 25˚C-b, 28˚C-c and despite non-normality the 
 # groupings are all the same between ANOVA + Tukey's HSD, ANOVA + Fisher's LSD,
 # and Kruskal-Wallis + Dunn's test
 
 #----------
-# Figure 3A
+# Figure 3B
 #----------
 BP8 = ggplot(CA_Isolates_All, aes(x=Temperature, y=RGPD, fill= Growing_Region)) + geom_boxplot(outlier.size = 0.75)
 BP8= BP8 + theme_classic() + scale_fill_manual(values=Cols) + 
@@ -438,7 +440,7 @@ BP8
 
 
 #----------
-# Figure 3B
+# Figure 3C
 #----------
 PTemp<- ggplot(CA_Isolates2, aes(x=Isolate, y=Percent_Growth_Affected_by_28,  fill= Growing_Region)) + 
   geom_bar(stat="identity", 
