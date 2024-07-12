@@ -27,8 +27,6 @@ library(rcompanion)
 ### ----------------------------------------------------------------------------
 # Importing data, & Setting factors 
 ### ----------------------------------------------------------------------------
-setwd("/Users/manosalvalab/Desktop/Aidan/Chapter2_Pc_Population_Genomics/Pc_PopGen_Paper/2024_Revisions/GitHub/GrowthRate_Phenotyping")
-
 OGT_Data <- read.csv("GR_Data.csv", header = T)
 # Setting factors 
 OGT_Data$Isolate <- factor(OGT_Data$Isolate)
