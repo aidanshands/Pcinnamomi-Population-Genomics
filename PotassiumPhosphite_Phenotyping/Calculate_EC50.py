@@ -10,7 +10,6 @@ from xlsxwriter import Workbook
 import os, glob, sys, datetime, scipy
 import argparse
 #-------------------------------------------------------------------------------
-# Author: Aidan Shands
 # USAGE
 # python Calculate_EC50.py -i input.csv -v 0,5,25,100
 # Outputs:
