@@ -2,8 +2,7 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
-#SBATCH--mem=200G
+#SBATCH--mem=256G
 #SBATCH -c 64
 #SBATCH --time=12-00:00:00
 ##SBATCH --output=my.stdout
