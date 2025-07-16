@@ -66,7 +66,7 @@ SimulateGL_CaluclateIA = function(Genlight, n_reps, n_SNPs, Genlight_Name){
   # Calculate Ia using samp.ia()
   ia.clone <- samp.ia(Clone, quiet = T, reps = n_reps, n.snp = n_SNPs)
   ia.most <- samp.ia(Most_clone, quiet = T, reps = n_reps, n.snp = n_SNPs)
-  ia.semi <- samp.ia(CA_South_semi_clone, quiet = T,reps = n_reps, n.snp = n_SNPs)
+  ia.semi <- samp.ia(Semi_clone, quiet = T,reps = n_reps, n.snp = n_SNPs)
   ia.sex <- samp.ia(Sexual, quiet = T, reps = n_reps, n.snp = n_SNPs)
   ia.Pc <- samp.ia(Genlight,  reps = n_reps, quiet = T, n.snp = n_SNPs)
   # cast results to df
