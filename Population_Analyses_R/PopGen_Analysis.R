@@ -203,7 +203,7 @@ gl2structure(vcf_GL_OG ,ploidy = 2,
              outpath = '/Users/manosalvalab/Desktop/Aidan/Pc_PopGen_2022/R_Analysis_Final/583K_outputs')
 
 #-------------------------------------------------------------------------------
-#               Clone Correction with MLG Filter of 0.1    
+#               Clone Correction with MLG Filter of 0.01    
 #                     MLGs used in Tables S2 & S5
 #-------------------------------------------------------------------------------
 # convert to snpclone
